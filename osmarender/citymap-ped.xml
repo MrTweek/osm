@@ -2949,8 +2949,6 @@
 					<wayMarker k="highway" class="noexit-mot"/>
 				</rule>
 				<else>
-
-
 					<rule e="node" k="noexit" v="yes|true">
 						<wayMarker k="highway" class="noexit-all"/>
 					</rule>
@@ -3038,9 +3036,6 @@
 		<rule e="node" k="amenity" v="post_box">
 			<symbol ref="postbox" position="center"/>
 		</rule>
-		<rule e="node" k="amenity" v="speed_trap">
-			<symbol ref="speed_trap" position="center"/>
-		</rule>
 		<rule e="node|way" k="amenity" v="pub">
 			<symbol ref="pub" position="center"/>
 		</rule>
@@ -3098,58 +3093,6 @@
 		</rule>
 		<rule e="node|way" k="amenity" v="bench">
 			<symbol ref="bench" position="center"/>
-		</rule>
-
-		<!-- Parking -->
-		<rule e="node|way" k="amenity" v="parking">
-			<rule e="node|way" k="access" v="~">
-				<rule e="node|way" k="parking" v="park_and_ride">
-					<symbol ref="park_and_ride" position="center"/>
-				</rule>
-				<else>
-					<rule e="node|way" k="parking" v="multi-storey|underground">
-						<rule e="node|way" k="fee" v="yes">
-							<symbol ref="parking_roof_fee" position="center"/>
-						</rule>
-						<else>
-							<symbol ref="parking_roof" position="center"/>
-						</else>
-					</rule>
-					<else>
-						<rule e="node|way" k="fee" v="yes">
-							<symbol ref="parking_fee" position="center"/>
-						</rule>
-						<else>
-							<symbol ref="parking" position="center"/>
-						</else>
-					</else>
-				</else>
-			</rule>
-			<else>
-				<rule e="node|way" k="access" v="permissive|public">
-					<rule e="node|way" k="parking" v="park_and_ride">
-						<symbol ref="park_and_ride-permissive" position="center"/>
-					</rule>
-					<else>
-						<rule e="node|way" k="parking" v="multi-storey|underground">
-							<rule e="node|way" k="fee" v="yes">
-								<symbol ref="parking_roof_fee-permissive" position="center"/>
-							</rule>
-							<else>
-								<symbol ref="parking_roof-permissive" position="center"/>
-							</else>
-						</rule>
-						<else>
-							<rule e="node|way" k="fee" v="yes">
-								<symbol ref="parking_fee-permissive" position="center"/>
-							</rule>
-							<else>
-								<symbol ref="parking-permissive" position="center"/>
-							</else>
-						</else>
-					</else>
-				</rule>
-			</else>
 		</rule>
 
 		<rule e="node|way" k="amenity" v="school">
