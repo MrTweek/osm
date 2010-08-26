@@ -1682,6 +1682,9 @@
 									<rule e="way" k="railway" v="subway">
 										<line class="railway-subway-1-core railway-subway-1-core-color railway-1-core" smart-linecap="no" />
 									</rule>
+									<rule e="way" k="railway" v="tram">
+										<line class="railway-tram-core railwy-tram-core-color railway-1-core" smart-linecap="no" />
+									</rule>
 									<rule e="way" k="railway" v="incline|funicular">
 										<line class="railway-funicular-1-core railway-funicular-1-core-color railway-1-core" smart-linecap="no" />
 									</rule>
@@ -4007,11 +4010,9 @@
 			.railway-light-tunnel-core               { stroke-opacity: 0.3; }
 
 			.railway-tram-casing                    { stroke-width: 0.4px; }
-			.railway-tram-1-core                    { stroke-width: 0.25px; }
-			.railway-tram-2-core                    { stroke-width: 0.25px; stroke-dasharray: 1.2,1.8; }
+			.railway-tram-core                    { stroke-width: 0.25px; }
 			.railway-tram-casing-color              { stroke: #4c0f4c; }
-			.railway-tram-1-core-color              { stroke: #e6b7e6; }
-			.railway-tram-2-core-color              { stroke: #4c0f4c; }
+			.railway-tram-core-color              { stroke: #e6b7e6; }
 			.railway-tram-tunnel-core               { stroke-opacity: 0.3; }
 
 			.railway-subway-casing                    { stroke-width: 0.4px; }
