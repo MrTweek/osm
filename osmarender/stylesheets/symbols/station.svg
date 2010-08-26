@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20"
+   height="15"
+   id="symbol-station"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="station.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2455">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath49">
+      <path
+         d="M 616.272,972.507 L 707.212,972.507 L 707.212,943.51 L 616.272,943.51 L 616.272,972.507 z"
+         id="path51" />
+    </clipPath>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 8 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="16 : 8 : 1"
+       inkscape:persp3d-origin="8 : 5.3333333 : 1"
+       id="perspective2461" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.197802"
+     inkscape:cx="6.3263136"
+     inkscape:cy="6.5823231"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1172"
+     inkscape:window-height="676"
+     inkscape:window-x="183"
+     inkscape:window-y="180" />
+  <metadata
+     id="metadata2458">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g45"
+       transform="matrix(0.4992511,0,0,-0.5346831,-307.67447,519.97664)">
+      <g
+         clip-path="url(#clipPath49)"
+         id="g47">
+        <g
+           transform="translate(652.342,972.495)"
+           id="g53">
+          <path
+             id="path55"
+             style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 0,0 L -32.06,0 C -34.26,0 -36.09,-1.742 -36.09,-3.994 L -36.09,-24.017 C -36.09,-26.27 -34.26,-28.054 -32.06,-28.054 L 0,-28.054 C 2.17,-28.054 3.99,-26.27 3.99,-24.017 L 3.99,-3.994 C 3.99,-1.742 2.17,0 0,0" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.4992511,0,0,-0.5346831,18.537221,12.841453)"
+       id="g57">
+      <path
+         id="path59"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 0,0 C 0,-0.638 -0.42,-1.148 -1.06,-1.148 L -33.12,-1.148 C -33.76,-1.148 -34.22,-0.638 -34.22,0 L -34.22,20.023 C -34.22,20.661 -33.76,21.17 -33.12,21.17 L -1.06,21.17 C -0.42,21.17 0,20.661 0,20.023 L 0,0" />
+    </g>
+    <g
+       transform="matrix(0.4992511,0,0,-0.5346831,14.283605,12.409967)"
+       id="g61">
+      <path
+         id="path63"
+         style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 0,0 L -7.13,0 L -7.13,18.365 L 0.34,18.365 C 3.86,18.365 5.77,16.92 5.77,13.475 C 5.77,11.69 4.28,10.415 2.67,9.608 C 4.92,8.972 6.45,7.608 6.45,5.316 C 6.45,1.574 3.31,0 0,0 z M -2.76,11.095 L -1.23,11.095 C 0.21,11.095 1.27,11.733 1.27,13.307 C 1.27,15.049 -0.09,15.519 -1.53,15.519 L -2.76,15.519 L -2.76,11.095 z M 1.78,5.401 C 1.78,7.271 0.59,7.696 -1.15,7.696 L -2.76,7.696 L -2.76,2.977 L -1.19,2.977 C 0.38,2.977 1.78,3.487 1.78,5.401" />
+    </g>
+    <g
+       transform="matrix(0.4992511,0,0,-0.5346831,6.1108584,12.409967)"
+       id="g65">
+      <path
+         id="path67"
+         style="fill:#ed1c24;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="M 0,0 L -6.75,0 L -6.75,18.365 L 0,18.365 C 4.75,18.365 7.29,15.389 7.29,9.268 C 7.29,3.954 5.6,0.044 0,0 z M 2.92,8.886 C 2.92,12.585 2.54,15.475 -1.44,15.475 L -2.34,15.475 L -2.34,2.977 L -0.77,2.977 C 1.57,2.977 2.92,4.846 2.92,8.886" />
+    </g>
+  </g>
+</svg>
