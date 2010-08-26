@@ -11,6 +11,7 @@
   <bounds minlat='48.9931717' minlon='8.4467697' maxlat='48.9968886' maxlon='8.4524345' origin='CGImap 0.0.2' />
   <bounds minlat='48.9961883' minlon='8.4514534' maxlat='48.9973002' maxlon='8.4535588' origin='CGImap 0.0.2' />
   <bounds minlat='48.9969449' minlon='8.4762096' maxlat='48.9987469' maxlon='8.4867668' origin='CGImap 0.0.2' />
+  <bounds minlat='49.0010556' minlon='8.4769821' maxlat='49.0056164' maxlon='8.4822178' origin='CGImap 0.0.2' />
   <node id='31100886' timestamp='2009-10-31T15:37:42Z' uid='7009' user='giggls' visible='true' version='4' lat='48.9985304' lon='8.4769678'>
     <tag k='railway' v='tram_stop' />
     <tag k='name' v='Karl-Weysser-Straße' />
@@ -32,6 +33,9 @@
     <tag k='name' v='Turmberg Bergstation' />
     <tag k='tourism' v='information' />
     <tag k='ele' v='232' />
+  </node>
+  <node id='26936603' timestamp='2009-06-21T22:29:46Z' uid='59242' user='tgoti' visible='true' version='4' lat='49.0021688' lon='8.4828209'>
+    <tag k='public_transport' v='stop_position' />
   </node>
   <node id='325168713' timestamp='2009-01-03T17:34:57Z' uid='16330' user='aluka' visible='true' version='1' lat='48.9983634' lon='8.4318055' />
   <node id='325167532' timestamp='2009-01-03T17:33:07Z' uid='16330' user='aluka' visible='true' version='1' lat='48.998059' lon='8.4305816' />
@@ -4051,6 +4055,7 @@
   <node id='31502270' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='5' lat='49.0040104' lon='8.4671611' />
   <node id='249748729' timestamp='2009-06-19T12:41:06Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0044814' lon='8.4655154' />
   <node id='249748730' timestamp='2009-06-19T12:41:06Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0041291' lon='8.4650384' />
+  <node id='31502255' timestamp='2009-06-19T12:41:51Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0037904' lon='8.4675991' />
   <node id='26938643' timestamp='2009-12-20T08:09:49Z' uid='39381' user='DD1GJ' visible='true' version='4' lat='49.0019128' lon='8.4679702' />
   <node id='17199028' timestamp='2009-06-19T12:38:16Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0017958' lon='8.4692818' />
   <node id='17199029' timestamp='2009-06-19T12:38:16Z' uid='85761' user='klausis' visible='true' version='2' lat='49.001862' lon='8.4685009' />
@@ -4059,6 +4064,9 @@
   <node id='747768982' timestamp='2010-05-25T10:56:00Z' uid='6269' user='Mueck' visible='true' version='1' lat='49.0026933' lon='8.4678369' />
   <node id='270386665' timestamp='2009-04-21T18:36:18Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0032829' lon='8.4688165' />
   <node id='270386660' timestamp='2008-06-14T23:56:48Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0033801' lon='8.4681884' />
+  <node id='149033052' timestamp='2009-06-19T12:40:38Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0035493' lon='8.4682512' />
+  <node id='31502256' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0034703' lon='8.4687409' />
+  <node id='31502257' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.003405' lon='8.4697016' />
   <node id='250906271' timestamp='2009-06-19T12:48:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0049629' lon='8.4606333' />
   <node id='250906249' timestamp='2009-06-19T12:42:30Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0057443' lon='8.4601571' />
   <node id='25576634' timestamp='2010-03-18T09:33:22Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0056975' lon='8.459479' />
@@ -4103,6 +4111,7 @@
   <node id='25576638' timestamp='2010-03-18T09:33:24Z' uid='7009' user='giggls' visible='true' version='5' lat='49.0078763' lon='8.4612471' />
   <node id='249748727' timestamp='2009-06-19T12:41:05Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0050557' lon='8.4656229' />
   <node id='249748728' timestamp='2009-06-19T12:41:06Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0048684' lon='8.4660019' />
+  <node id='31060611' timestamp='2009-07-23T09:35:27Z' uid='7009' user='giggls' visible='true' version='4' lat='49.004663' lon='8.4666088' />
   <node id='609169746' timestamp='2010-01-08T16:14:58Z' uid='12150' user='MrTweek' visible='true' version='2' lat='48.9991116' lon='8.4705912'>
     <tag k='name' v='Kehrle' />
     <tag k='amenity' v='cafe' />
@@ -4236,6 +4245,24 @@
   <node id='26370900' timestamp='2010-04-08T13:34:40Z' uid='7009' user='giggls' visible='true' version='3' lat='48.9991189' lon='8.4732831' />
   <node id='31100619' timestamp='2009-06-19T12:37:13Z' uid='85761' user='klausis' visible='true' version='2' lat='48.9993143' lon='8.4758117' />
   <node id='17199009' timestamp='2010-04-08T13:34:44Z' uid='7009' user='giggls' visible='true' version='3' lat='48.9995168' lon='8.475551' />
+  <node id='25393280' timestamp='2009-06-19T12:37:24Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0013603' lon='8.4757204' />
+  <node id='25393279' timestamp='2009-06-19T12:37:27Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0013463' lon='8.4755018' />
+  <node id='26353230' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0013431' lon='8.4752939' />
+  <node id='26353231' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0012104' lon='8.4744262' />
+  <node id='26353229' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0013416' lon='8.4749749' />
+  <node id='26353228' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0013441' lon='8.4747021' />
+  <node id='26353227' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0012961' lon='8.4745859' />
+  <node id='26353226' timestamp='2009-06-19T12:35:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0012456' lon='8.4744949' />
+  <node id='149033050' timestamp='2009-06-19T12:40:38Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0032436' lon='8.4751656' />
+  <node id='26938483' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0030776' lon='8.4759045' />
+  <node id='26938484' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0031077' lon='8.4759464' />
+  <node id='26973689' timestamp='2009-06-19T12:40:46Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031868' lon='8.4734602' />
+  <node id='26973687' timestamp='2009-06-19T12:40:47Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031916' lon='8.4750064' />
+  <node id='26973669' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0034644' lon='8.4749498' />
+  <node id='26973690' timestamp='2009-06-19T12:40:46Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031759' lon='8.4730791' />
+  <node id='26973691' timestamp='2009-06-19T12:40:46Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0030456' lon='8.472579' />
+  <node id='31502259' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0032482' lon='8.4726588' />
+  <node id='15843118' timestamp='2009-06-19T12:41:37Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0034614' lon='8.472386' />
   <node id='31100880' timestamp='2009-06-19T12:36:58Z' uid='85761' user='klausis' visible='true' version='3' lat='48.9990433' lon='8.4783118'>
     <tag k='railway' v='level_crossing' />
   </node>
@@ -4259,6 +4286,22 @@
     <tag k='motorcar' v='yes' />
     <tag k='bicycle' v='yes' />
   </node>
+  <node id='26936803' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0000569' lon='8.4783893' />
+  <node id='25393289' timestamp='2009-06-19T12:37:25Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0015976' lon='8.4762184' />
+  <node id='25581019' timestamp='2009-06-19T12:36:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0004598' lon='8.4774249' />
+  <node id='25581023' timestamp='2009-06-19T12:36:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.001559' lon='8.478339' />
+  <node id='25581021' timestamp='2009-06-19T12:36:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0009272' lon='8.4780157' />
+  <node id='671474170' timestamp='2010-03-21T15:36:39Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0005001' lon='8.4774863'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='26938580' timestamp='2009-06-19T12:37:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0014755' lon='8.4760539' />
+  <node id='247922674' timestamp='2009-06-19T12:39:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0006885' lon='8.4777741' />
+  <node id='26936791' timestamp='2009-06-19T12:39:09Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0011734' lon='8.4772745' />
+  <node id='26936793' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0016442' lon='8.4762869' />
+  <node id='26936797' timestamp='2009-06-19T12:39:10Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0009768' lon='8.4778426' />
+  <node id='26936799' timestamp='2009-06-19T12:39:10Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0005736' lon='8.4774158' />
+  <node id='26936789' timestamp='2009-06-19T12:39:09Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0013963' lon='8.4768365' />
   <node id='391983234' timestamp='2009-05-07T15:07:02Z' uid='77172' user='oxomoa' visible='true' version='1' lat='48.9993899' lon='8.4787414'>
     <tag k='public_transport' v='stop_position' />
   </node>
@@ -4270,6 +4313,324 @@
   <node id='27164074' timestamp='2009-06-19T12:39:52Z' uid='85761' user='klausis' visible='true' version='2' lat='48.9996267' lon='8.4790308' />
   <node id='412565' timestamp='2008-03-09T16:37:22Z' uid='7009' user='giggls' visible='true' version='2' lat='48.9998866' lon='8.4793944' />
   <node id='412564' timestamp='2007-03-04T21:22:16Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='48.9994739' lon='8.4788326' />
+  <node id='412566' timestamp='2008-02-16T20:02:32Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0001926' lon='8.4798792' />
+  <node id='270384038' timestamp='2008-06-14T23:30:55Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0013441' lon='8.4809917' />
+  <node id='270384035' timestamp='2008-06-14T23:30:55Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0011248' lon='8.4812925' />
+  <node id='270384322' timestamp='2009-12-03T21:39:46Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0014691' lon='8.4808504' />
+  <node id='412567' timestamp='2006-01-15T09:51:54Z' uid='516' user='kammann' visible='true' version='1' lat='49.0004308' lon='8.4802589' />
+  <node id='412568' timestamp='2008-02-16T20:02:33Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0008105' lon='8.4808915' />
+  <node id='412569' timestamp='2008-02-16T20:02:32Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0010674' lon='8.4812867' />
+  <node id='248877436' timestamp='2009-12-03T21:39:46Z' uid='7009' user='giggls' visible='true' version='3' lat='49.001408' lon='8.4808999' />
+  <node id='26936805' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0012618' lon='8.4809865' />
+  <node id='26936804' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0011719' lon='8.4811519' />
+  <node id='26936794' timestamp='2009-06-19T12:39:10Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0005821' lon='8.4788829' />
+  <node id='25581080' timestamp='2009-06-19T12:36:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.002288' lon='8.4772342' />
+  <node id='25581087' timestamp='2009-06-19T12:36:13Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0025607' lon='8.4761757' />
+  <node id='249581815' timestamp='2009-06-19T12:38:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0025746' lon='8.4763894' />
+  <node id='249581817' timestamp='2009-06-19T12:38:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0031153' lon='8.4762051' />
+  <node id='25581097' timestamp='2009-06-19T12:36:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0025781' lon='8.4769789' />
+  <node id='25581093' timestamp='2009-06-19T12:36:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0025984' lon='8.4768304' />
+  <node id='25581095' timestamp='2009-06-19T12:36:14Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0025984' lon='8.4769062' />
+  <node id='249581824' timestamp='2009-06-19T12:38:22Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0026822' lon='8.4769643' />
+  <node id='249581826' timestamp='2009-06-19T12:38:22Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0027697' lon='8.477092' />
+  <node id='249581821' timestamp='2009-06-19T12:38:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0025959' lon='8.4769221' />
+  <node id='249581822' timestamp='2009-06-19T12:38:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0026393' lon='8.4769287' />
+  <node id='25581089' timestamp='2009-06-19T12:36:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0025984' lon='8.4767359' />
+  <node id='249581828' timestamp='2009-06-19T12:38:22Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0028035' lon='8.4771193' />
+  <node id='26938488' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031184' lon='8.4772856' />
+  <node id='249581834' timestamp='2009-06-19T12:38:21Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0031353' lon='8.4770862' />
+  <node id='249581832' timestamp='2009-06-19T12:38:21Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0030048' lon='8.4770786' />
+  <node id='249581830' timestamp='2009-06-19T12:38:22Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0028609' lon='8.4771175' />
+  <node id='26938485' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031348' lon='8.4771822' />
+  <node id='249581819' timestamp='2009-06-19T12:38:14Z' uid='85761' user='klausis' visible='true' version='2' lat='49.003124' lon='8.4767756' />
+  <node id='25581082' timestamp='2009-06-19T12:36:13Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0024048' lon='8.4775572' />
+  <node id='25581025' timestamp='2009-06-19T12:36:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0019431' lon='8.4785485' />
+  <node id='25581026' timestamp='2009-06-19T12:36:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0023182' lon='8.4786248' />
+  <node id='26936814' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.002402' lon='8.4782621' />
+  <node id='26936802' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0020262' lon='8.4785894' />
+  <node id='26936800' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0020742' lon='8.4784033' />
+  <node id='26938491' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0030722' lon='8.4775942' />
+  <node id='25581085' timestamp='2009-06-19T12:36:13Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0024997' lon='8.4780465' />
+  <node id='25581028' timestamp='2009-06-19T12:36:11Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0027793' lon='8.478663' />
+  <node id='25581032' timestamp='2009-06-19T12:36:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0025569' lon='8.4786418' />
+  <node id='26936813' timestamp='2009-12-03T21:39:46Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0029864' lon='8.4781849' />
+  <node id='26936812' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0029637' lon='8.4786814' />
+  <node id='26936801' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0025178' lon='8.4782138' />
+  <node id='26938486' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0032159' lon='8.4769405' />
+  <node id='26973688' timestamp='2009-06-19T12:40:46Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0032367' lon='8.4765606' />
+  <node id='26973672' timestamp='2009-06-19T12:40:48Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0035562' lon='8.4771999' />
+  <node id='31502258' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='5' lat='49.0033567' lon='8.4772021' />
+  <node id='26973671' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.004175' lon='8.4771776' />
+  <node id='26353342' timestamp='2009-06-19T12:40:51Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043525' lon='8.4761214' />
+  <node id='26353344' timestamp='2009-06-19T12:40:46Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0041773' lon='8.4769736' />
+  <node id='26991470' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043388' lon='8.4766612' />
+  <node id='26991469' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0042422' lon='8.4772195' />
+  <node id='116152212' timestamp='2009-06-19T12:40:41Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0032273' lon='8.4777466' />
+  <node id='116152204' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0034588' lon='8.4777877' />
+  <node id='26938489' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031701' lon='8.4773753' />
+  <node id='26938490' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031458' lon='8.4775385' />
+  <node id='26973682' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0037879' lon='8.4779733' />
+  <node id='26973674' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0036353' lon='8.4778737' />
+  <node id='26973673' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0036608' lon='8.4779989' />
+  <node id='247921355' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0037719' lon='8.4773497' />
+  <node id='116152208' timestamp='2008-07-06T10:05:02Z' uid='6975' user='ulfl' visible='true' version='4' lat='49.0032859' lon='8.4783254'>
+    <tag k='name' v='Obermühle' />
+    <tag k='power_source' v='hydro' />
+    <tag k='power' v='generator' />
+    <tag k='waterway' v='weir' />
+  </node>
+  <node id='251337876' timestamp='2009-06-19T12:41:45Z' uid='85761' user='klausis' visible='true' version='2' lat='49.003336' lon='8.4785742' />
+  <node id='549299965' timestamp='2009-12-16T20:20:17Z' uid='52239' user='ipofanes' visible='true' version='2' lat='49.0031452' lon='8.4782347'>
+    <tag k='addr:postcode' v='76227' />
+    <tag k='ref' v='L 013' />
+    <tag k='source' v='Datenspende der NaturFreunde Deutschland' />
+    <tag k='addr:country' v='DE' />
+    <tag k='name' v='Naturfreundehaus Obermühle' />
+    <tag k='amenity' v='restaurant' />
+    <tag k='addr:street' v='Alte Weingartener Straße' />
+    <tag k='addr:city' v='Karlsruhe' />
+    <tag k='operator' v='NaturFreunde Deutschland' />
+    <tag k='addr:housenumber' v='37' />
+  </node>
+  <node id='26974592' timestamp='2010-03-21T15:36:44Z' uid='5632' user='matt_gnu' visible='true' version='4' lat='49.0036997' lon='8.4785482'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='26974591' timestamp='2009-06-19T12:42:15Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0037921' lon='8.4785247' />
+  <node id='26973676' timestamp='2009-06-19T12:40:47Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0037209' lon='8.4783375' />
+  <node id='26973675' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0036914' lon='8.4781414' />
+  <node id='25581030' timestamp='2009-06-19T12:41:08Z' uid='85761' user='klausis' visible='true' version='3' lat='49.003754' lon='8.4785358' />
+  <node id='116169860' timestamp='2009-06-19T12:36:02Z' uid='85761' user='klausis' visible='true' version='5' lat='49.0035073' lon='8.4786119' />
+  <node id='26973681' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.003873' lon='8.4779669' />
+  <node id='26973684' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0039859' lon='8.4773402' />
+  <node id='26973683' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0039878' lon='8.4774192' />
+  <node id='26973680' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0038718' lon='8.477896' />
+  <node id='26973678' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.004073' lon='8.4773363' />
+  <node id='26973679' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0040873' lon='8.4779552' />
+  <node id='26973677' timestamp='2009-06-19T12:40:48Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0038356' lon='8.4783392'>
+    <tag k='leisure' v='playground' />
+  </node>
+  <node id='247921356' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0040004' lon='8.4779605' />
+  <node id='247921359' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0038591' lon='8.4773458' />
+  <node id='247921357' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0039989' lon='8.4778886' />
+  <node id='247921358' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0038611' lon='8.477426' />
+  <node id='26353346' timestamp='2009-06-19T12:40:47Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0041944' lon='8.4778767' />
+  <node id='26353345' timestamp='2009-06-19T12:40:47Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0042016' lon='8.4783523' />
+  <node id='420480757' timestamp='2009-06-15T06:50:12Z' uid='4499' user='Jochen Topf' visible='true' version='1' lat='49.0042322' lon='8.4782723'>
+    <tag k='amenity' v='post_box' />
+  </node>
+  <node id='26991467' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.004371' lon='8.4776918' />
+  <node id='25391340' timestamp='2009-06-19T12:41:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0040779' lon='8.4784102' />
+  <node id='248877438' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0020795' lon='8.4789164' />
+  <node id='248877437' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0018945' lon='8.4800037' />
+  <node id='26936810' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0017867' lon='8.4800149' />
+  <node id='248877426' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0022168' lon='8.4788619' />
+  <node id='149026860' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0022477' lon='8.4791683' />
+  <node id='149026857' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0020666' lon='8.4794736' />
+  <node id='149026858' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0021372' lon='8.4792829' />
+  <node id='149026855' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0020478' lon='8.4796388' />
+  <node id='149026853' timestamp='2009-12-03T21:39:47Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0020525' lon='8.4798398' />
+  <node id='149026851' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0021232' lon='8.4800409' />
+  <node id='270384320' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0018438' lon='8.4802024' />
+  <node id='149026850' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0022315' lon='8.4801486' />
+  <node id='251692041' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0028563' lon='8.4805283' />
+  <node id='251692042' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0028415' lon='8.4810145' />
+  <node id='270384317' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0027176' lon='8.4812904' />
+  <node id='270384316' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0025252' lon='8.4810356' />
+  <node id='270384327' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0026724' lon='8.4813144' />
+  <node id='270384328' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0025168' lon='8.4811084' />
+  <node id='270384324' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0024763' lon='8.4810522' />
+  <node id='248877434' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0025628' lon='8.4809759' />
+  <node id='270256529' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0027992' lon='8.4814002' />
+  <node id='270256528' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0030585' lon='8.4811012' />
+  <node id='116152207' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0034067' lon='8.4789051' />
+  <node id='116152206' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0036943' lon='8.4797021' />
+  <node id='116152200' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0038229' lon='8.4796047'>
+    <tag k='waterway' v='weir' />
+  </node>
+  <node id='116152203' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0035992' lon='8.4787795' />
+  <node id='116152196' timestamp='2009-06-19T12:40:41Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0037806' lon='8.4799408' />
+  <node id='149026838' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0034092' lon='8.4795669' />
+  <node id='149026834' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0032372' lon='8.4792939' />
+  <node id='149026835' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0033432' lon='8.4793731' />
+  <node id='248877427' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0032345' lon='8.4789028' />
+  <node id='248877428' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0033837' lon='8.4791576' />
+  <node id='248877429' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0036658' lon='8.4800232' />
+  <node id='26353423' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0034176' lon='8.4791404' />
+  <node id='26353421' timestamp='2009-06-19T12:35:40Z' uid='85761' user='klausis' visible='true' version='5' lat='49.0031979' lon='8.4787019' />
+  <node id='251337875' timestamp='2009-06-19T12:41:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0033695' lon='8.4787182' />
+  <node id='149026840' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0034233' lon='8.4798111' />
+  <node id='149026841' timestamp='2009-12-03T21:39:48Z' uid='7009' user='giggls' visible='true' version='3' lat='49.003395' lon='8.480005' />
+  <node id='26974593' timestamp='2009-06-19T12:42:07Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0038951' lon='8.4793684' />
+  <node id='26974611' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0040521' lon='8.4793763' />
+  <node id='124209973' timestamp='2009-06-19T12:40:25Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043015' lon='8.4792447' />
+  <node id='26974621' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0044949' lon='8.4792915' />
+  <node id='124209978' timestamp='2009-06-19T12:40:25Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0041236' lon='8.4795093' />
+  <node id='124209976' timestamp='2009-06-19T12:40:25Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0040258' lon='8.479387' />
+  <node id='149030077' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0038353' lon='8.4798147' />
+  <node id='26974601' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0040977' lon='8.4796677' />
+  <node id='26974600' timestamp='2009-06-19T12:42:11Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0040037' lon='8.4795463' />
+  <node id='26974612' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0041236' lon='8.4795057' />
+  <node id='124209986' timestamp='2009-06-19T12:40:27Z' uid='85761' user='klausis' visible='true' version='2' lat='49.004302' lon='8.4796583' />
+  <node id='124209982' timestamp='2009-06-19T12:40:25Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0042083' lon='8.4796011' />
+  <node id='26974603' timestamp='2009-06-19T12:42:11Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043249' lon='8.4797813' />
+  <node id='26974602' timestamp='2009-06-19T12:42:11Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0042035' lon='8.4797539' />
+  <node id='26974604' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0044737' lon='8.4797383' />
+  <node id='26974607' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045129' lon='8.4798949' />
+  <node id='26974609' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.004223' lon='8.4800594' />
+  <node id='26974608' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.004364' lon='8.4799929'>
+    <tag k='amenity' v='parking' />
+  </node>
+  <node id='26974616' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043562' lon='8.4793896' />
+  <node id='26974615' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043915' lon='8.4796677' />
+  <node id='26974614' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043014' lon='8.4796599' />
+  <node id='26974613' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0042074' lon='8.4796012' />
+  <node id='124210004' timestamp='2009-06-19T12:40:27Z' uid='85761' user='klausis' visible='true' version='2' lat='49.00439' lon='8.4796655' />
+  <node id='124210007' timestamp='2009-06-19T12:40:28Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0043543' lon='8.4793888' />
+  <node id='270256481' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.003466' lon='8.4807367' />
+  <node id='270256482' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033855' lon='8.4804937' />
+  <node id='248877433' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0032208' lon='8.4805541' />
+  <node id='149026863' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0033602' lon='8.4801174' />
+  <node id='149026844' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0032787' lon='8.4802356' />
+  <node id='270256531' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0031828' lon='8.4805514' />
+  <node id='149026848' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0031832' lon='8.4802666' />
+  <node id='270256479' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0037064' lon='8.4802463' />
+  <node id='270256480' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.003787' lon='8.4804893' />
+  <node id='270256486' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0038037' lon='8.4805455' />
+  <node id='26353424' timestamp='2009-06-19T12:40:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.003808' lon='8.4802573' />
+  <node id='270256488' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0034716' lon='8.4807877' />
+  <node id='270256489' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0031866' lon='8.4810239' />
+  <node id='270256490' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0032753' lon='8.4812725' />
+  <node id='270256494' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033116' lon='8.4812846' />
+  <node id='270256532' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.003168' lon='8.4810375' />
+  <node id='270256527' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0031613' lon='8.4813085' />
+  <node id='270256523' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0031865' lon='8.4813299' />
+  <node id='270256484' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0035812' lon='8.4810229' />
+  <node id='270256485' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0035004' lon='8.4807766' />
+  <node id='270256487' timestamp='2009-12-03T21:39:49Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0035602' lon='8.4810363' />
+  <node id='270256491' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0036309' lon='8.481102' />
+  <node id='270256492' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0036885' lon='8.481336' />
+  <node id='270256495' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0037411' lon='8.4813439' />
+  <node id='26974594' timestamp='2009-06-19T12:42:06Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0041035' lon='8.4801363' />
+  <node id='26974595' timestamp='2009-06-19T12:42:07Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0043383' lon='8.4811391' />
+  <node id='270256483' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0038844' lon='8.4807918' />
+  <node id='149030076' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0042441' lon='8.4812509' />
+  <node id='248579137' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='3' lat='49.004314' lon='8.4802127' />
+  <node id='248579138' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0043289' lon='8.4807358' />
+  <node id='26353426' timestamp='2009-06-19T12:40:38Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0041831' lon='8.4813561' />
+  <node id='248579153' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0043873' lon='8.4803414' />
+  <node id='248579154' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0043997' lon='8.4807319' />
+  <node id='26973670' timestamp='2009-06-19T12:40:49Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045658' lon='8.4752634' />
+  <node id='26353340' timestamp='2009-06-19T12:40:52Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0050003' lon='8.4735156' />
+  <node id='26353334' timestamp='2009-06-19T12:40:56Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0050053' lon='8.4727666' />
+  <node id='26353336' timestamp='2009-06-19T12:40:52Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0050626' lon='8.4728376' />
+  <node id='26353338' timestamp='2009-06-19T12:40:52Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0050793' lon='8.4729679' />
+  <node id='26991472' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045428' lon='8.4758454' />
+  <node id='26991474' timestamp='2009-06-19T12:41:42Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0047682' lon='8.4748685' />
+  <node id='26991476' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0050581' lon='8.4737413' />
+  <node id='26991478' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0051547' lon='8.473226' />
+  <node id='26991485' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.006357' lon='8.4743747' />
+  <node id='26991483' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0061101' lon='8.473634' />
+  <node id='26991487' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0067434' lon='8.4756629' />
+  <node id='26991482' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0057129' lon='8.4726249' />
+  <node id='26991480' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0051761' lon='8.4728288' />
+  <node id='26974230' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0052224' lon='8.478404' />
+  <node id='26974231' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0049498' lon='8.4784359' />
+  <node id='26974232' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0051061' lon='8.4784214' />
+  <node id='247921361' timestamp='2009-07-22T19:49:34Z' uid='7009' user='giggls' visible='true' version='3' lat='49.005886' lon='8.4782592' />
+  <node id='247921360' timestamp='2009-06-19T12:41:50Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0051158' lon='8.4780362' />
+  <node id='26991466' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0048434' lon='8.4777347' />
+  <node id='26991464' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0056914' lon='8.4777347' />
+  <node id='26974187' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0057546' lon='8.4781663' />
+  <node id='26974185' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0049801' lon='8.4781875' />
+  <node id='26974186' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.005228' lon='8.4781906' />
+  <node id='26974184' timestamp='2009-06-19T12:40:35Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0048594' lon='8.4780952' />
+  <node id='26974182' timestamp='2009-06-19T12:40:36Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0048459' lon='8.4778543' />
+  <node id='25391341' timestamp='2009-06-19T12:41:39Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0047877' lon='8.4781179' />
+  <node id='124203937' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0048693' lon='8.4782729' />
+  <node id='124203922' timestamp='2009-12-03T21:39:50Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0052491' lon='8.4782529' />
+  <node id='549947583' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0062633' lon='8.4785798' />
+  <node id='26991489' timestamp='2009-06-19T12:41:42Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0070977' lon='8.4768437' />
+  <node id='26991460' timestamp='2009-06-19T12:41:40Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0064214' lon='8.4776703' />
+  <node id='26974189' timestamp='2009-07-22T19:49:33Z' uid='7009' user='giggls' visible='true' version='4' lat='49.006966' lon='8.4786371' />
+  <node id='25391343' timestamp='2009-07-22T19:49:33Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0068511' lon='8.4779722' />
+  <node id='26974188' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='5' lat='49.0061848' lon='8.4785284' />
+  <node id='26974181' timestamp='2009-07-22T19:49:34Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0061215' lon='8.4777928' />
+  <node id='25391342' timestamp='2009-07-22T19:49:33Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0059568' lon='8.4779915' />
+  <node id='445814349' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0064285' lon='8.4785988' />
+  <node id='26974620' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0046696' lon='8.4792526' />
+  <node id='271798326' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0048501' lon='8.4792888' />
+  <node id='26974235' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0049874' lon='8.479187' />
+  <node id='26974234' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0051379' lon='8.4791816' />
+  <node id='271798330' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0051798' lon='8.4792184' />
+  <node id='271798328' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0051801' lon='8.4792785' />
+  <node id='124203932' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0049285' lon='8.4792348' />
+  <node id='124203930' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0050938' lon='8.4792236' />
+  <node id='271798325' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0048518' lon='8.4796381' />
+  <node id='248579134' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047743' lon='8.479771' />
+  <node id='248579135' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0046418' lon='8.4798854' />
+  <node id='248579136' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0046649' lon='8.4799406' />
+  <node id='26974605' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045795' lon='8.4797265' />
+  <node id='26974606' timestamp='2009-06-19T12:42:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0046539' lon='8.4797813' />
+  <node id='26974619' timestamp='2009-06-19T12:42:13Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0046852' lon='8.4795894' />
+  <node id='248579148' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047818' lon='8.4799605' />
+  <node id='248579149' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047818' lon='8.4800281' />
+  <node id='248579143' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047743' lon='8.479796' />
+  <node id='560854182' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0052993' lon='8.4796332' />
+  <node id='26974233' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0052831' lon='8.4791209' />
+  <node id='271798331' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0053423' lon='8.4792166' />
+  <node id='271798323' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0053443' lon='8.4796327' />
+  <node id='149026936' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0057178' lon='8.4799883' />
+  <node id='149026937' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0057389' lon='8.4800391' />
+  <node id='149026940' timestamp='2009-12-03T21:39:51Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0057858' lon='8.4799997' />
+  <node id='149026911' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.005845' lon='8.4800225' />
+  <node id='248579133' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054175' lon='8.4797219' />
+  <node id='248579129' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054163' lon='8.479671' />
+  <node id='248579146' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0052673' lon='8.4798338' />
+  <node id='248579147' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.00527' lon='8.4799136' />
+  <node id='248579144' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054213' lon='8.4798185' />
+  <node id='124203925' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0053291' lon='8.4792091' />
+  <node id='248579139' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0045414' lon='8.4813753' />
+  <node id='149026880' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='4' lat='49.005095' lon='8.4813449' />
+  <node id='248579152' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047077' lon='8.4800721' />
+  <node id='248579151' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0047139' lon='8.4800878' />
+  <node id='149026928' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0055225' lon='8.4801521' />
+  <node id='149026925' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054253' lon='8.4803668' />
+  <node id='149026926' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054518' lon='8.4802133' />
+  <node id='149026924' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0054708' lon='8.4804902' />
+  <node id='149026931' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.005543' lon='8.4802123' />
+  <node id='149026922' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0055953' lon='8.4803834' />
+  <node id='149026921' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0056096' lon='8.4804166' />
+  <node id='149026920' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0056226' lon='8.4804083' />
+  <node id='149026933' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0055736' lon='8.4801822' />
+  <node id='149026932' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0055654' lon='8.4802144' />
+  <node id='149026934' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0055532' lon='8.4801252' />
+  <node id='149026914' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.005862' lon='8.4802009' />
+  <node id='149026916' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0058307' lon='8.4802299' />
+  <node id='149026919' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.005645' lon='8.4804581' />
+  <node id='149026918' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0058484' lon='8.4802818' />
+  <node id='149026912' timestamp='2009-12-03T21:39:52Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0058784' lon='8.4801148' />
+  <node id='149026874' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0054985' lon='8.4810038' />
+  <node id='248579156' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0056726' lon='8.4813793' />
+  <node id='149026876' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0055934' lon='8.4812647' />
+  <node id='549947585' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0062217' lon='8.4795056'>
+    <tag k='barrier' v='gate' />
+    <tag k='foot' v='no' />
+    <tag k='bicycle' v='no' />
+  </node>
+  <node id='251353181' timestamp='2009-12-03T21:39:54Z' uid='7009' user='giggls' visible='true' version='3' lat='49.006879' lon='8.481217' />
+  <node id='248579124' timestamp='2009-12-03T21:39:54Z' uid='7009' user='giggls' visible='true' version='3' lat='49.006875' lon='8.4813238' />
+  <node id='248579125' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0069528' lon='8.4794923' />
+  <node id='248579126' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0061991' lon='8.4795052' />
+  <node id='248579128' timestamp='2009-12-03T21:39:53Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0061974' lon='8.4796005' />
+  <node id='248579142' timestamp='2009-12-03T21:39:54Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0060734' lon='8.4813286' />
+  <node id='251353169' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0076646' lon='8.4812398' />
+  <node id='26991459' timestamp='2009-06-19T12:41:41Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0072695' lon='8.4776167' />
+  <node id='26974190' timestamp='2009-06-19T12:40:35Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0077294' lon='8.4786831' />
+  <node id='26974191' timestamp='2009-06-19T12:40:35Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0079438' lon='8.4797368' />
+  <node id='26974192' timestamp='2009-06-19T12:40:34Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0080479' lon='8.481322' />
+  <node id='25391344' timestamp='2009-07-22T19:49:32Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0076373' lon='8.477973' />
+  <node id='26974180' timestamp='2009-07-22T19:49:34Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0078388' lon='8.4787896' />
   <node id='325167159' timestamp='2009-01-03T17:32:30Z' uid='16330' user='aluka' visible='true' version='1' lat='49.010469' lon='8.4611548' />
   <node id='325166814' timestamp='2009-01-04T13:03:57Z' uid='6269' user='Mueck' visible='true' version='2' lat='49.0158063' lon='8.4668063' />
   <node id='325166880' timestamp='2009-01-03T17:32:00Z' uid='16330' user='aluka' visible='true' version='1' lat='49.0148297' lon='8.4658063' />
@@ -4277,14 +4638,90 @@
   <node id='325168877' timestamp='2009-01-03T17:35:24Z' uid='16330' user='aluka' visible='true' version='1' lat='49.0115548' lon='8.46239' />
   <node id='26934712' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='48.9998602' lon='8.4830446' />
   <node id='26934713' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0001557' lon='8.4837261' />
+  <node id='26934711' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='4' lat='48.9993263' lon='8.4820963' />
+  <node id='443745494' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='2' lat='48.9999766' lon='8.4833211' />
+  <node id='247924920' timestamp='2009-06-19T12:38:24Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0012804' lon='8.4815956' />
+  <node id='270384036' timestamp='2008-06-14T23:30:55Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.001623' lon='8.4819787' />
+  <node id='26938884' timestamp='2009-07-19T16:01:38Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0006793' lon='8.4825237' />
+  <node id='26938880' timestamp='2009-06-19T12:37:32Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0005035' lon='8.4825182' />
+  <node id='26938878' timestamp='2009-07-19T16:05:44Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0007497' lon='8.4824331' />
+  <node id='263373251' timestamp='2009-06-19T12:39:35Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0017345' lon='8.482223' />
+  <node id='443745478' timestamp='2009-07-19T16:01:38Z' uid='7009' user='giggls' visible='true' version='1' lat='49.0006116' lon='8.4825439' />
+  <node id='270384787' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0016172' lon='8.4820509' />
+  <node id='270384788' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0016308' lon='8.4818781' />
+  <node id='270384789' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.001692' lon='8.4819467' />
+  <node id='270384786' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0017205' lon='8.4819079' />
+  <node id='26936811' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.001745' lon='8.4819778'>
+    <tag k='name' v='Shell' />
+    <tag k='amenity' v='fuel' />
+  </node>
+  <node id='26936807' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0016701' lon='8.4818004' />
+  <node id='26936806' timestamp='2009-06-19T12:39:11Z' uid='85761' user='klausis' visible='true' version='3' lat='49.001566' lon='8.4819853' />
+  <node id='26936808' timestamp='2009-06-19T12:39:12Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0017575' lon='8.4816349' />
   <node id='26934714' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0003704' lon='8.4843657' />
   <node id='26934715' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0005711' lon='8.4850123' />
   <node id='26934716' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='49.000742' lon='8.4856032' />
   <node id='26934717' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='5' lat='49.0008791' lon='8.4861805' />
-  <node id='26934711' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='4' lat='48.9993263' lon='8.4820963' />
   <node id='443753883' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0008364' lon='8.4860189' />
-  <node id='443745494' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='2' lat='48.9999766' lon='8.4833211' />
   <node id='443800966' timestamp='2009-11-23T14:49:27Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0009113' lon='8.4863604' />
+  <node id='270384037' timestamp='2008-06-14T23:30:55Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0018329' lon='8.4816121' />
+  <node id='270384319' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0023467' lon='8.481913' />
+  <node id='270384318' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0021525' lon='8.4816699' />
+  <node id='270384325' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='3' lat='49.002234' lon='8.4816047' />
+  <node id='270384326' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0023895' lon='8.4818107' />
+  <node id='270384323' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0021016' lon='8.4817002' />
+  <node id='248877435' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0020805' lon='8.4817895' />
+  <node id='270384784' timestamp='2008-06-14T23:37:20Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0018843' lon='8.4824338' />
+  <node id='270384785' timestamp='2008-06-14T23:37:20Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0019772' lon='8.4822752' />
+  <node id='270384790' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1' lat='49.0021202' lon='8.4820154' />
+  <node id='270256530' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.002902' lon='8.4816075' />
+  <node id='270256526' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0029359' lon='8.4816392' />
+  <node id='270256525' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0030364' lon='8.4818284' />
+  <node id='270256521' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0030739' lon='8.4818374' />
+  <node id='412571' timestamp='2008-02-16T20:02:33Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0025976' lon='8.4834592' />
+  <node id='26934249' timestamp='2009-06-19T12:38:46Z' uid='85761' user='klausis' visible='true' version='4' lat='49.002813' lon='8.4838138'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='270256493' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033691' lon='8.4815185' />
+  <node id='270256497' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.003486' lon='8.4817681' />
+  <node id='270256508' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.003443' lon='8.4818491' />
+  <node id='270256500' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0034254' lon='8.4815329' />
+  <node id='270256524' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0032871' lon='8.4815191' />
+  <node id='270256520' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033114' lon='8.4815246' />
+  <node id='270256522' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0031783' lon='8.4820216' />
+  <node id='270256517' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033727' lon='8.4821202' />
+  <node id='270256519' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0034158' lon='8.4817088' />
+  <node id='270256518' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0033148' lon='8.4820182' />
+  <node id='270256475' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0038135' lon='8.4819053' />
+  <node id='270256478' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0037457' lon='8.4816384' />
+  <node id='270256496' timestamp='2009-12-03T21:39:55Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0038017' lon='8.4815791' />
+  <node id='251695655' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0037392' lon='8.4820224' />
+  <node id='270256516' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0035009' lon='8.4819512' />
+  <node id='251695658' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0034919' lon='8.4823818' />
+  <node id='251695657' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0037651' lon='8.4828136' />
+  <node id='270256476' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0041356' lon='8.4817169' />
+  <node id='270256477' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0040673' lon='8.4814484' />
+  <node id='270256472' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0041914' lon='8.4816843' />
+  <node id='270256471' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0042482' lon='8.4819165' />
+  <node id='270256474' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0039391' lon='8.4820921' />
+  <node id='270256473' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0038835' lon='8.4818644' />
+  <node id='251692974' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045159' lon='8.4820812'>
+    <tag k='barrier' v='bollard' />
+  </node>
+  <node id='26974596' timestamp='2009-06-19T12:42:07Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0044235' lon='8.4814459' />
+  <node id='116152199' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0043568' lon='8.4814711' />
+  <node id='251695656' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0040138' lon='8.4824519' />
+  <node id='251692970' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0034289' lon='8.4840265' />
+  <node id='251692971' timestamp='2009-06-19T12:40:25Z' uid='85761' user='klausis' visible='true' version='2' lat='49.003415' lon='8.4839013' />
+  <node id='251692972' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0039166' lon='8.4831104' />
+  <node id='251692973' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0038686' lon='8.4830356' />
+  <node id='251692969' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0036101' lon='8.4843299' />
+  <node id='251692968' timestamp='2009-06-19T12:40:26Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0036051' lon='8.4844339' />
+  <node id='251692967' timestamp='2009-06-19T12:37:28Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0034611' lon='8.4846534' />
+  <node id='412572' timestamp='2008-02-17T12:33:15Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0032905' lon='8.484434' />
+  <node id='412573' timestamp='2008-02-17T12:33:15Z' uid='7009' user='giggls' visible='true' version='2' lat='49.0039621' lon='8.485323' />
+  <node id='251694579' timestamp='2009-06-19T12:38:52Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0036705' lon='8.4849241' />
+  <node id='206952159' timestamp='2009-06-19T12:36:25Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0042948' lon='8.4857313' />
   <node id='26934211' timestamp='2009-06-19T12:38:44Z' uid='85761' user='klausis' visible='true' version='3' lat='48.9990514' lon='8.4881952' />
   <node id='26934210' timestamp='2009-06-19T12:38:44Z' uid='85761' user='klausis' visible='true' version='3' lat='48.9990828' lon='8.4882854' />
   <node id='443804522' timestamp='2009-07-19T17:14:33Z' uid='7009' user='giggls' visible='true' version='1' lat='49.0009499' lon='8.4913458' />
@@ -4296,6 +4733,38 @@
   <node id='26934224' timestamp='2009-07-19T16:31:39Z' uid='7009' user='giggls' visible='true' version='5' lat='49.0005795' lon='8.4906131' />
   <node id='26934223' timestamp='2009-06-19T12:38:45Z' uid='85761' user='klausis' visible='true' version='3' lat='48.9996418' lon='8.4887172' />
   <node id='26934222' timestamp='2009-06-19T12:38:45Z' uid='85761' user='klausis' visible='true' version='3' lat='48.9991963' lon='8.4878534' />
+  <node id='247923603' timestamp='2009-06-19T12:42:05Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0045572' lon='8.482023' />
+  <node id='26974597' timestamp='2009-06-19T12:42:07Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0054811' lon='8.4832011' />
+  <node id='26974598' timestamp='2009-06-19T12:42:07Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0053704' lon='8.4833577' />
+  <node id='251353179' timestamp='2009-06-19T12:41:50Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0052819' lon='8.48251' />
+  <node id='251353178' timestamp='2009-06-19T12:41:50Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0053914' lon='8.4827227' />
+  <node id='251353177' timestamp='2009-06-19T12:41:50Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0056292' lon='8.4830574' />
+  <node id='251353180' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0051334' lon='8.4820852' />
+  <node id='149030075' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0057696' lon='8.4838343' />
+  <node id='248579141' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0050075' lon='8.4821846' />
+  <node id='248579159' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0054463' lon='8.4815628' />
+  <node id='248579157' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0057377' lon='8.4815657' />
+  <node id='248579158' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='4' lat='49.0055113' lon='8.4817492' />
+  <node id='149026877' timestamp='2009-12-03T21:39:56Z' uid='7009' user='giggls' visible='true' version='4' lat='49.00519' lon='8.4816058' />
+  <node id='26353430' timestamp='2009-06-19T12:40:38Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0056944' lon='8.4838826' />
+  <node id='251353173' timestamp='2009-06-19T12:41:45Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0060374' lon='8.482585' />
+  <node id='251353174' timestamp='2009-06-19T12:41:45Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0060233' lon='8.4826773' />
+  <node id='251353175' timestamp='2009-06-19T12:41:45Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0059983' lon='8.4827587' />
+  <node id='251353176' timestamp='2009-06-19T12:41:50Z' uid='85761' user='klausis' visible='true' version='2' lat='49.005967' lon='8.4828072' />
+  <node id='251353171' timestamp='2009-12-03T21:39:57Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0064695' lon='8.4824784' />
+  <node id='251353172' timestamp='2009-12-03T21:39:57Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0061887' lon='8.482642' />
+  <node id='116152198' timestamp='2009-06-19T12:40:40Z' uid='85761' user='klausis' visible='true' version='4' lat='49.0066523' lon='8.4858255' />
+  <node id='149044439' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0065067' lon='8.4869379' />
+  <node id='149044440' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='2' lat='49.006628' lon='8.4863733' />
+  <node id='149030073' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0064148' lon='8.4844177' />
+  <node id='149030072' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0065261' lon='8.4846213' />
+  <node id='149030070' timestamp='2009-06-19T12:41:31Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0066304' lon='8.4850231' />
+  <node id='252817406' timestamp='2008-09-14T10:54:56Z' uid='56439' user='Robin Roth' visible='true' version='2' lat='49.0066413' lon='8.4853958' />
+  <node id='251353170' timestamp='2009-12-03T21:39:57Z' uid='7009' user='giggls' visible='true' version='3' lat='49.0076029' lon='8.4824835' />
+  <node id='26974193' timestamp='2009-06-19T12:40:34Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0080582' lon='8.4830357' />
+  <node id='251695251' timestamp='2009-06-19T12:41:12Z' uid='85761' user='klausis' visible='true' version='2' lat='49.0080496' lon='8.4816996' />
+  <node id='149044438' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.006217' lon='8.4880261' />
+  <node id='149044441' timestamp='2009-06-19T12:41:52Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0061499' lon='8.4886438' />
   <node id='443782179' timestamp='2009-07-19T16:31:36Z' uid='7009' user='giggls' visible='true' version='1' lat='49.0018036' lon='8.4928294' />
   <node id='443782176' timestamp='2009-07-19T16:31:36Z' uid='7009' user='giggls' visible='true' version='1' lat='49.0019988' lon='8.4928536' />
   <node id='26934231' timestamp='2009-06-19T12:38:40Z' uid='85761' user='klausis' visible='true' version='3' lat='49.0031372' lon='8.4927515' />
@@ -9720,6 +10189,873 @@
     <nd ref='251306454' />
     <nd ref='251306420' />
     <tag k='landuse' v='vineyard' />
+  </way>
+  <way id='19824701' timestamp='2009-06-21T22:29:55Z' uid='59242' user='tgoti' visible='true' version='10'>
+    <nd ref='412565' />
+    <nd ref='412566' />
+    <nd ref='412567' />
+    <nd ref='412568' />
+    <nd ref='412569' />
+    <nd ref='247924920' />
+    <nd ref='26936806' />
+    <nd ref='270384787' />
+    <nd ref='263373251' />
+    <nd ref='270384784' />
+    <nd ref='26936603' />
+    <nd ref='412571' />
+    <nd ref='26934249' />
+    <nd ref='412572' />
+    <nd ref='251692967' />
+    <nd ref='251694579' />
+    <nd ref='412573' />
+    <nd ref='206952159' />
+    <tag k='ref' v='B 3' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Grötzinger Straße' />
+  </way>
+  <way id='12716543' timestamp='2008-12-28T08:18:43Z' uid='67441' user='u14183' visible='true' version='5'>
+    <nd ref='116152208' />
+    <nd ref='116152212' />
+    <nd ref='31502258' />
+    <tag k='osmarender:renderName' v='no' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='4408497' timestamp='2009-11-01T14:10:55Z' uid='5632' user='matt_gnu' visible='true' version='7'>
+    <nd ref='26974184' />
+    <nd ref='26974185' />
+    <nd ref='26974186' />
+    <nd ref='26974187' />
+    <nd ref='247921361' />
+    <nd ref='26974188' />
+    <nd ref='549947583' />
+    <nd ref='445814349' />
+    <nd ref='26974189' />
+    <nd ref='26974190' />
+    <nd ref='26974180' />
+    <nd ref='26974191' />
+    <nd ref='26974192' />
+    <nd ref='251695251' />
+    <nd ref='26974193' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Tiengener Straße' />
+  </way>
+  <way id='23257747' timestamp='2009-06-19T12:52:16Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='251692967' />
+    <nd ref='251692968' />
+    <nd ref='251692969' />
+    <nd ref='251692970' />
+    <nd ref='251692971' />
+    <nd ref='251692972' />
+    <nd ref='251692973' />
+    <nd ref='251692974' />
+    <nd ref='247923603' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4408496' timestamp='2009-06-19T12:52:16Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26974184' />
+    <nd ref='26974182' />
+    <tag k='highway' v='unclassified' />
+  </way>
+  <way id='4408499' timestamp='2009-06-19T12:52:16Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974186' />
+    <nd ref='26974230' />
+    <nd ref='26974233' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4408501' timestamp='2009-06-19T12:52:17Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26974232' />
+    <nd ref='26974234' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4408500' timestamp='2009-06-19T12:52:17Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974233' />
+    <nd ref='26974234' />
+    <nd ref='26974235' />
+    <nd ref='26974231' />
+    <nd ref='26974232' />
+    <nd ref='26974230' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4263043' timestamp='2009-06-19T12:49:20Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='25581087' />
+    <nd ref='249581815' />
+    <nd ref='25581089' />
+    <nd ref='25581093' />
+    <nd ref='25581095' />
+    <nd ref='249581821' />
+    <nd ref='25581097' />
+    <nd ref='25581080' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Pfinzstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='4408495' timestamp='2009-06-19T12:52:18Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26974181' />
+    <nd ref='26974182' />
+    <nd ref='26353346' />
+    <tag k='highway' v='unclassified' />
+  </way>
+  <way id='15093734' timestamp='2008-12-28T08:18:48Z' uid='67441' user='u14183' visible='true' version='4'>
+    <nd ref='116152196' />
+    <nd ref='149030077' />
+    <nd ref='116152200' />
+    <nd ref='116152203' />
+    <nd ref='116152204' />
+    <nd ref='31502258' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='23233096' timestamp='2009-06-19T12:52:18Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='251353169' />
+    <nd ref='251353170' />
+    <nd ref='251353171' />
+    <nd ref='251353172' />
+    <nd ref='251353173' />
+    <nd ref='251353174' />
+    <nd ref='251353175' />
+    <nd ref='251353176' />
+    <nd ref='251353177' />
+    <nd ref='251353178' />
+    <nd ref='251353179' />
+    <nd ref='251353180' />
+    <nd ref='248579142' />
+    <nd ref='248579124' />
+    <nd ref='251353181' />
+    <nd ref='251353169' />
+    <tag k='landuse' v='allotments' />
+  </way>
+  <way id='22996900' timestamp='2009-07-19T16:01:40Z' uid='7009' user='giggls' visible='true' version='3'>
+    <nd ref='247924920' />
+    <nd ref='26938878' />
+    <nd ref='26938884' />
+    <nd ref='443745478' />
+    <nd ref='26938880' />
+    <nd ref='26938882' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Am Steinbruch' />
+  </way>
+  <way id='12717333' timestamp='2009-06-19T12:52:22Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='116169860' />
+    <nd ref='26974592' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Alte Weingartener Straße' />
+    <tag k='bridge' v='yes' />
+  </way>
+  <way id='23041233' timestamp='2009-11-01T14:10:56Z' uid='5632' user='matt_gnu' visible='true' version='5'>
+    <nd ref='248579124' />
+    <nd ref='248579142' />
+    <nd ref='251353180' />
+    <nd ref='248579141' />
+    <nd ref='248579139' />
+    <nd ref='248579138' />
+    <nd ref='248579137' />
+    <nd ref='248579136' />
+    <nd ref='248579135' />
+    <nd ref='248579134' />
+    <nd ref='248579143' />
+    <nd ref='248579133' />
+    <nd ref='248579129' />
+    <nd ref='248579128' />
+    <nd ref='248579126' />
+    <nd ref='549947585' />
+    <nd ref='248579125' />
+    <nd ref='251353181' />
+    <nd ref='248579124' />
+    <tag k='name' v='Turmbergbad' />
+    <tag k='leisure' v='water_park' />
+  </way>
+  <way id='15093727' timestamp='2008-12-28T08:18:52Z' uid='67441' user='u14183' visible='true' version='5'>
+    <nd ref='116152196' />
+    <nd ref='116152206' />
+    <nd ref='116152207' />
+    <nd ref='251337875' />
+    <tag k='osmarender:renderName' v='no' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='23041235' timestamp='2009-06-19T12:52:24Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='248579156' />
+    <nd ref='248579157' />
+    <nd ref='248579158' />
+    <nd ref='248579159' />
+    <nd ref='248579156' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='24883495' timestamp='2008-06-14T23:30:55Z' uid='5632' user='matt_gnu' visible='true' version='1'>
+    <nd ref='270384035' />
+    <nd ref='270384036' />
+    <nd ref='270384037' />
+    <nd ref='270384038' />
+    <nd ref='270384035' />
+    <tag k='amenity' v='parking' />
+  </way>
+  <way id='23041234' timestamp='2009-06-19T12:52:24Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='248579133' />
+    <nd ref='248579144' />
+    <nd ref='248579146' />
+    <nd ref='248579147' />
+    <nd ref='248579148' />
+    <nd ref='248579149' />
+    <nd ref='248579151' />
+    <nd ref='248579152' />
+    <nd ref='248579153' />
+    <nd ref='248579154' />
+    <nd ref='248579138' />
+    <nd ref='248579137' />
+    <nd ref='248579136' />
+    <nd ref='248579135' />
+    <nd ref='248579134' />
+    <nd ref='248579143' />
+    <nd ref='248579133' />
+    <tag k='building' v='yes' />
+  </way>
+  <way id='23117846' timestamp='2009-06-19T12:50:12Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='249581821' />
+    <nd ref='249581822' />
+    <nd ref='249581824' />
+    <nd ref='249581826' />
+    <nd ref='249581828' />
+    <nd ref='249581830' />
+    <nd ref='249581832' />
+    <nd ref='249581834' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='25002193' timestamp='2009-11-11T18:10:56Z' uid='196050' user='CrazyLion' visible='true' version='2'>
+    <nd ref='271798323' />
+    <nd ref='560854182' />
+    <nd ref='271798325' />
+    <nd ref='271798326' />
+    <nd ref='271798328' />
+    <nd ref='271798330' />
+    <nd ref='271798331' />
+    <nd ref='271798323' />
+    <tag k='shop' v='supermarket' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='ALDI' />
+  </way>
+  <way id='4403836' timestamp='2009-06-19T12:50:52Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26936814' />
+    <nd ref='26936800' />
+    <nd ref='26936797' />
+    <nd ref='26936799' />
+    <tag k='highway' v='living_street' />
+    <tag k='name' v='Alte Weingartener Straße' />
+  </way>
+  <way id='4403835' timestamp='2009-06-19T12:50:53Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26936801' />
+    <nd ref='26936814' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='4403834' timestamp='2009-06-19T12:52:27Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26936812' />
+    <nd ref='26936813' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4403833' timestamp='2009-06-19T12:50:53Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26936804' />
+    <nd ref='26936807' />
+    <nd ref='270384788' />
+    <nd ref='26936806' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4403832' timestamp='2009-06-19T12:50:53Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26936805' />
+    <nd ref='26936808' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4403831' timestamp='2010-03-21T15:52:22Z' uid='5632' user='matt_gnu' visible='true' version='3'>
+    <nd ref='26936802' />
+    <nd ref='26936810' />
+    <nd ref='26936805' />
+    <nd ref='26936804' />
+    <nd ref='412569' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Liebensteinstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='4403830' timestamp='2010-03-21T15:52:24Z' uid='5632' user='matt_gnu' visible='true' version='3'>
+    <nd ref='26936803' />
+    <nd ref='26936794' />
+    <nd ref='26936810' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Lamprechtstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='4403829' timestamp='2010-03-21T15:52:27Z' uid='5632' user='matt_gnu' visible='true' version='3'>
+    <nd ref='26936791' />
+    <nd ref='26936797' />
+    <nd ref='25581021' />
+    <nd ref='26936794' />
+    <nd ref='412566' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Neuensteinstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='4330568' timestamp='2009-06-19T12:52:28Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26353345' />
+    <nd ref='26353346' />
+    <nd ref='26973671' />
+    <nd ref='26353344' />
+    <nd ref='26353342' />
+    <nd ref='26973670' />
+    <nd ref='26353340' />
+    <nd ref='26353338' />
+    <nd ref='26353336' />
+    <nd ref='26353334' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Funkerstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='4330574' timestamp='2009-06-19T12:52:29Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26353421' />
+    <nd ref='26353423' />
+    <nd ref='26353424' />
+    <nd ref='26353426' />
+    <nd ref='247923603' />
+    <nd ref='26974598' />
+    <nd ref='26353430' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='24883521' timestamp='2009-01-22T15:48:47Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270384325' />
+    <nd ref='270384326' />
+    <nd ref='270384327' />
+    <nd ref='270384328' />
+    <nd ref='270384325' />
+    <tag k='layer' v='1' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24883520' timestamp='2009-01-22T15:48:48Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270384320' />
+    <nd ref='270384322' />
+    <nd ref='270384323' />
+    <nd ref='270384324' />
+    <nd ref='270384320' />
+    <tag k='layer' v='1' />
+    <tag k='sport' v='soccer' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='4408556' timestamp='2009-06-19T12:52:29Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26974591' />
+    <nd ref='26974611' />
+    <nd ref='26974612' />
+    <nd ref='26974613' />
+    <nd ref='26974614' />
+    <nd ref='26974615' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='24883550' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1'>
+    <nd ref='270384784' />
+    <nd ref='270384785' />
+    <nd ref='270384790' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='24883551' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1'>
+    <nd ref='270384788' />
+    <nd ref='270384789' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4408420' timestamp='2009-06-19T12:52:43Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26973672' />
+    <nd ref='26973671' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Trainstraße' />
+  </way>
+  <way id='15093309' timestamp='2009-07-21T18:34:53Z' uid='7009' user='giggls' visible='true' version='5'>
+    <nd ref='149026911' />
+    <nd ref='149026912' />
+    <nd ref='149026914' />
+    <nd ref='149026916' />
+    <nd ref='149026918' />
+    <nd ref='149026919' />
+    <nd ref='149026920' />
+    <nd ref='149026921' />
+    <nd ref='149026922' />
+    <nd ref='149026924' />
+    <nd ref='149026925' />
+    <nd ref='149026926' />
+    <nd ref='149026928' />
+    <nd ref='149026931' />
+    <nd ref='149026932' />
+    <nd ref='149026933' />
+    <nd ref='149026934' />
+    <nd ref='149026936' />
+    <nd ref='149026937' />
+    <nd ref='149026940' />
+    <nd ref='149026911' />
+    <tag k='layer' v='1' />
+    <tag k='sport' v='swimming' />
+    <tag k='leisure' v='swimming_pool' />
+    <tag k='natural' v='water' />
+  </way>
+  <way id='4408558' timestamp='2009-06-19T12:52:30Z' uid='85761' user='klausis' visible='true' version='4'>
+    <nd ref='26974616' />
+    <nd ref='26974621' />
+    <nd ref='26974620' />
+    <nd ref='26974619' />
+    <nd ref='26974615' />
+    <nd ref='26974616' />
+    <tag k='amenity' v='bicycle_parking' />
+  </way>
+  <way id='4731130' timestamp='2010-03-30T14:44:50Z' uid='6269' user='Mueck' visible='true' version='9'>
+    <nd ref='26974592' />
+    <nd ref='25581030' />
+    <nd ref='26974591' />
+    <nd ref='25391340' />
+    <nd ref='26353345' />
+    <nd ref='25391341' />
+    <nd ref='26974184' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Alte Weingartener Straße' />
+  </way>
+  <way id='4408422' timestamp='2009-06-19T12:52:43Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26973681' />
+    <nd ref='26973680' />
+    <nd ref='247921357' />
+    <nd ref='247921356' />
+    <nd ref='26973679' />
+    <nd ref='26973678' />
+    <nd ref='26973684' />
+    <nd ref='26973683' />
+    <nd ref='247921358' />
+    <nd ref='247921359' />
+    <nd ref='247921355' />
+    <nd ref='26973682' />
+    <nd ref='26973681' />
+    <tag k='building' v='yes' />
+    <tag k='name' v='Pfinzbau' />
+    <tag k='amenity' v='school' />
+    <tag k='note' v='Heinrich-Hübsch-Schule, Heinrich-Meidinger-Schule, Gewerbeschule Durlach' />
+  </way>
+  <way id='4408552' timestamp='2009-06-19T12:52:31Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26974595' />
+    <nd ref='26974596' />
+    <nd ref='26974597' />
+    <tag k='highway' v='service' />
+    <tag k='access' v='private' />
+  </way>
+  <way id='13517387' timestamp='2009-06-19T12:52:44Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='124209973' />
+    <nd ref='124209976' />
+    <nd ref='124209978' />
+    <nd ref='124209982' />
+    <nd ref='124209986' />
+    <nd ref='124210004' />
+    <nd ref='124210007' />
+    <nd ref='124209973' />
+    <tag k='name' v='Turmbergbad' />
+    <tag k='amenity' v='parking' />
+  </way>
+  <way id='23231642' timestamp='2008-12-28T08:18:42Z' uid='67441' user='u14183' visible='true' version='3'>
+    <nd ref='251337876' />
+    <nd ref='116152208' />
+    <tag k='osmarender:renderName' v='no' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='4408553' timestamp='2009-06-19T12:52:31Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974593' />
+    <nd ref='26974600' />
+    <nd ref='26974601' />
+    <nd ref='26974602' />
+    <nd ref='26974603' />
+    <nd ref='26974604' />
+    <nd ref='26974605' />
+    <nd ref='26974606' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='15093306' timestamp='2009-07-21T18:34:53Z' uid='7009' user='giggls' visible='true' version='5'>
+    <nd ref='149026874' />
+    <nd ref='149026876' />
+    <nd ref='149026877' />
+    <nd ref='149026880' />
+    <nd ref='149026874' />
+    <tag k='layer' v='1' />
+    <tag k='sport' v='swimming' />
+    <tag k='leisure' v='swimming_pool' />
+    <tag k='natural' v='water' />
+  </way>
+  <way id='4408419' timestamp='2009-06-19T12:52:45Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26973672' />
+    <nd ref='26973674' />
+    <nd ref='26973673' />
+    <nd ref='26973675' />
+    <nd ref='26973676' />
+    <nd ref='25581030' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='4408554' timestamp='2009-06-19T12:52:32Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974594' />
+    <nd ref='26974609' />
+    <nd ref='26974608' />
+    <nd ref='26974607' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='4408555' timestamp='2009-06-19T12:52:32Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974607' />
+    <nd ref='26974606' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='23231641' timestamp='2008-12-28T08:18:47Z' uid='67441' user='u14183' visible='true' version='3'>
+    <nd ref='251337875' />
+    <nd ref='251337876' />
+    <tag k='osmarender:renderName' v='no' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='23258069' timestamp='2009-06-19T12:52:32Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='251695655' />
+    <nd ref='251695656' />
+    <nd ref='251695657' />
+    <nd ref='251695658' />
+    <nd ref='251695655' />
+    <tag k='building' v='yes' />
+    <tag k='sport' v='tennis' />
+  </way>
+  <way id='15093303' timestamp='2009-06-19T12:50:18Z' uid='85761' user='klausis' visible='true' version='4'>
+    <nd ref='149026834' />
+    <nd ref='149026860' />
+    <nd ref='149026858' />
+    <nd ref='149026857' />
+    <nd ref='149026855' />
+    <nd ref='149026853' />
+    <nd ref='149026851' />
+    <nd ref='149026850' />
+    <nd ref='149026848' />
+    <nd ref='149026844' />
+    <nd ref='149026863' />
+    <nd ref='149026841' />
+    <nd ref='149026840' />
+    <nd ref='149026838' />
+    <nd ref='149026835' />
+    <nd ref='149026834' />
+    <tag k='layer' v='1' />
+    <tag k='sport' v='soccer' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='3924781' timestamp='2009-06-19T12:52:33Z' uid='85761' user='klausis' visible='true' version='4'>
+    <nd ref='26973672' />
+    <nd ref='26973669' />
+    <nd ref='15843118' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Waldshuter Straße' />
+  </way>
+  <way id='23063225' timestamp='2009-06-19T12:51:01Z' uid='85761' user='klausis' visible='true' version='5'>
+    <nd ref='248877426' />
+    <nd ref='248877427' />
+    <nd ref='248877428' />
+    <nd ref='248877429' />
+    <nd ref='248877433' />
+    <nd ref='270256531' />
+    <nd ref='251692041' />
+    <nd ref='251692042' />
+    <nd ref='248877434' />
+    <nd ref='270384316' />
+    <nd ref='270384317' />
+    <nd ref='270384319' />
+    <nd ref='270384318' />
+    <nd ref='248877435' />
+    <nd ref='248877436' />
+    <nd ref='248877437' />
+    <nd ref='248877438' />
+    <nd ref='248877426' />
+    <tag k='name' v='ASV Durlach' />
+    <tag k='sport' v='multi' />
+    <tag k='leisure' v='sports_centre' />
+  </way>
+  <way id='4408551' timestamp='2009-06-19T12:52:33Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26974592' />
+    <nd ref='26974593' />
+    <nd ref='26974594' />
+    <nd ref='26974595' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='24870325' timestamp='2009-05-02T15:12:45Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256491' />
+    <nd ref='270256492' />
+    <nd ref='270256493' />
+    <nd ref='270256494' />
+    <nd ref='270256491' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870324' timestamp='2009-05-02T15:12:45Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256487' />
+    <nd ref='270256488' />
+    <nd ref='270256489' />
+    <nd ref='270256490' />
+    <nd ref='270256487' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870327' timestamp='2009-05-02T15:12:45Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256508' />
+    <nd ref='270256516' />
+    <nd ref='270256517' />
+    <nd ref='270256518' />
+    <nd ref='270256508' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870326' timestamp='2009-05-02T15:12:46Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256495' />
+    <nd ref='270256496' />
+    <nd ref='270256497' />
+    <nd ref='270256500' />
+    <nd ref='270256495' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870321' timestamp='2009-05-02T15:12:46Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256479' />
+    <nd ref='270256480' />
+    <nd ref='270256481' />
+    <nd ref='270256482' />
+    <nd ref='270256479' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870320' timestamp='2009-05-02T15:12:46Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256475' />
+    <nd ref='270256476' />
+    <nd ref='270256477' />
+    <nd ref='270256478' />
+    <nd ref='270256475' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870322' timestamp='2009-05-02T15:12:46Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256483' />
+    <nd ref='270256484' />
+    <nd ref='270256485' />
+    <nd ref='270256486' />
+    <nd ref='270256483' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='13516765' timestamp='2009-06-19T12:52:34Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='124203922' />
+    <nd ref='124203925' />
+    <nd ref='124203930' />
+    <nd ref='124203932' />
+    <nd ref='124203937' />
+    <nd ref='124203922' />
+    <tag k='amenity' v='parking' />
+  </way>
+  <way id='4428434' timestamp='2010-03-21T15:52:24Z' uid='5632' user='matt_gnu' visible='true' version='3'>
+    <nd ref='26936802' />
+    <nd ref='26936800' />
+    <tag k='highway' v='living_street' />
+    <tag k='name' v='Alte Weingartener Straße' />
+  </way>
+  <way id='4876923' timestamp='2008-12-28T08:18:49Z' uid='67441' user='u14183' visible='true' version='6'>
+    <nd ref='31502258' />
+    <nd ref='149033050' />
+    <nd ref='31502259' />
+    <nd ref='31502257' />
+    <nd ref='31502256' />
+    <nd ref='149033052' />
+    <nd ref='31502255' />
+    <nd ref='31060611' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='4330395' timestamp='2009-06-19T12:50:21Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='25581032' />
+    <nd ref='26936801' />
+    <nd ref='25581085' />
+    <nd ref='25581082' />
+    <nd ref='25581080' />
+    <nd ref='26936793' />
+    <nd ref='25393289' />
+    <nd ref='26938580' />
+    <nd ref='25393280' />
+    <nd ref='25393279' />
+    <nd ref='26353230' />
+    <nd ref='26353229' />
+    <nd ref='26353228' />
+    <nd ref='26353227' />
+    <nd ref='26353226' />
+    <nd ref='26353231' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Pfinzstraße' />
+    <tag k='maxspeed' v='30' />
+  </way>
+  <way id='24462392' timestamp='2008-12-28T08:18:50Z' uid='67441' user='u14183' visible='true' version='4'>
+    <nd ref='149044441' />
+    <nd ref='149044438' />
+    <nd ref='149044439' />
+    <nd ref='149044440' />
+    <nd ref='116152198' />
+    <nd ref='252817406' />
+    <nd ref='149030070' />
+    <nd ref='149030072' />
+    <nd ref='149030073' />
+    <nd ref='149030075' />
+    <nd ref='116152199' />
+    <nd ref='149030076' />
+    <nd ref='116152196' />
+    <tag k='name' v='Pfinz' />
+    <tag k='width' v='8' />
+    <tag k='layer' v='-1' />
+    <tag k='waterway' v='river' />
+  </way>
+  <way id='24870329' timestamp='2009-05-02T15:12:46Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256523' />
+    <nd ref='270256524' />
+    <nd ref='270256525' />
+    <nd ref='270256526' />
+    <nd ref='270256523' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24883552' timestamp='2008-06-14T23:37:21Z' uid='5632' user='matt_gnu' visible='true' version='1'>
+    <nd ref='270384785' />
+    <nd ref='270384786' />
+    <nd ref='270384789' />
+    <nd ref='270384787' />
+    <tag k='highway' v='service' />
+  </way>
+  <way id='24870328' timestamp='2009-05-02T15:12:47Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256519' />
+    <nd ref='270256520' />
+    <nd ref='270256521' />
+    <nd ref='270256522' />
+    <nd ref='270256519' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870331' timestamp='2009-05-02T15:12:47Z' uid='7009' user='giggls' visible='true' version='3'>
+    <nd ref='270256531' />
+    <nd ref='270256532' />
+    <nd ref='251692042' />
+    <nd ref='251692041' />
+    <nd ref='270256531' />
+    <tag k='layer' v='1' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='24870330' timestamp='2009-05-02T15:12:47Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256527' />
+    <nd ref='270256528' />
+    <nd ref='270256529' />
+    <nd ref='270256530' />
+    <nd ref='270256527' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='4410994' timestamp='2008-07-07T00:10:51Z' uid='6975' user='ulfl' visible='true' version='4'>
+    <nd ref='26991472' />
+    <nd ref='26991474' />
+    <nd ref='26991476' />
+    <nd ref='26991478' />
+    <nd ref='26991480' />
+    <nd ref='26991482' />
+    <nd ref='26991483' />
+    <nd ref='26991485' />
+    <nd ref='26991487' />
+    <nd ref='26991489' />
+    <nd ref='26991459' />
+    <nd ref='26991460' />
+    <nd ref='26991464' />
+    <nd ref='26991466' />
+    <nd ref='26991467' />
+    <nd ref='26991469' />
+    <nd ref='26991470' />
+    <nd ref='26991472' />
+    <tag k='name' v='Polizeischule' />
+    <tag k='fenced' v='yes' />
+    <tag k='amenity' v='school' />
+    <tag k='landuse' v='barracks' />
+    <tag k='access' v='no' />
+    <tag k='operator' v='police' />
+  </way>
+  <way id='53753193' timestamp='2010-03-30T14:44:43Z' uid='6269' user='Mueck' visible='true' version='1'>
+    <nd ref='26974184' />
+    <nd ref='247921360' />
+    <nd ref='25391342' />
+    <nd ref='25391343' />
+    <nd ref='25391344' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Alte Weingartener Straße' />
+  </way>
+  <way id='4263029' timestamp='2010-03-21T15:52:21Z' uid='5632' user='matt_gnu' visible='true' version='9'>
+    <nd ref='25581019' />
+    <nd ref='671474170' />
+    <nd ref='247922674' />
+    <nd ref='25581021' />
+    <nd ref='25581023' />
+    <nd ref='25581025' />
+    <nd ref='26936802' />
+    <nd ref='25581026' />
+    <nd ref='25581032' />
+    <nd ref='25581028' />
+    <nd ref='26936812' />
+    <nd ref='26353421' />
+    <nd ref='116169860' />
+    <tag k='surface' v='cobblestone' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Alte Weingartener Straße' />
+    <tag k='maxspeed' v='30' />
+    <tag k='note' v='im SHP des NVK: II, nicht mehr vernünftig seit Unterbrechung' />
+  </way>
+  <way id='24870319' timestamp='2009-05-02T15:12:47Z' uid='7009' user='giggls' visible='true' version='2'>
+    <nd ref='270256471' />
+    <nd ref='270256472' />
+    <nd ref='270256476' />
+    <nd ref='270256473' />
+    <nd ref='270256474' />
+    <nd ref='270256471' />
+    <tag k='sport' v='tennis' />
+    <tag k='leisure' v='pitch' />
+  </way>
+  <way id='4404052' timestamp='2009-06-19T12:52:36Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26938491' />
+    <nd ref='26938490' />
+    <nd ref='26938489' />
+    <nd ref='26938488' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='4404051' timestamp='2009-06-19T12:52:36Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26938485' />
+    <nd ref='26938486' />
+    <nd ref='26973688' />
+    <nd ref='26973687' />
+    <nd ref='26973689' />
+    <nd ref='26973690' />
+    <nd ref='26973691' />
+    <tag k='highway' v='footway' />
+  </way>
+  <way id='4404050' timestamp='2009-06-19T12:52:36Z' uid='85761' user='klausis' visible='true' version='3'>
+    <nd ref='26936813' />
+    <nd ref='26938491' />
+    <nd ref='26938488' />
+    <nd ref='26938485' />
+    <nd ref='249581834' />
+    <nd ref='249581819' />
+    <nd ref='249581817' />
+    <nd ref='26938484' />
+    <nd ref='26938483' />
+    <tag k='highway' v='cycleway' />
+  </way>
+  <way id='4412313' timestamp='2009-06-19T12:49:43Z' uid='85761' user='klausis' visible='true' version='2'>
+    <nd ref='26936789' />
+    <nd ref='26936791' />
+    <tag k='highway' v='footway' />
+    <tag k='name' v='Neuensteinstraße' />
   </way>
   <relation id='396824' timestamp='2010-01-28T21:39:40Z' uid='35560' user='HeikoE' visible='true' version='2'>
     <member type='node' ref='30824827' role='start' />
