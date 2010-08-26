@@ -3163,6 +3163,7 @@
 		</rule>
 
 		<!-- Sport symbols with border on nodes -->
+        <!-- TODO: consider removing -->
 		<rule e="node" k="sport" v="archery">
 			<symbol ref="archery" position="center"/>
 		</rule>
