@@ -3127,9 +3127,6 @@
 		<rule e="node" k="amenity" v="bicycle_rental">
 			<symbol ref="bicycle_rental"  position="center"/>
 		</rule>
-		<rule e="node|way" k="amenity" v="recycling">
-			<symbol ref="recycling" position="center"/>
-		</rule>
 		<rule e="node|way" k="amenity" v="toilets">
 			<symbol ref="toilets" position="center"/>
 		</rule>
@@ -3146,9 +3143,6 @@
 		</rule>
 		<rule e="node|way" k="amenity" v="bureau_de_change">
 			<symbol ref="bureau_de_change" position="center"/>
-		</rule>
-		<rule e="node|way" k="amenity" v="car_sharing">
-			<symbol ref="car_sharing" position="center"/>
 		</rule>
 		<rule e="node|way" k="amenity" v="telephone">
 			<symbol ref="telephone" position="center"/>
