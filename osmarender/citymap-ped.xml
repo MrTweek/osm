@@ -1262,6 +1262,9 @@
 									<rule e="way" k="railway" v="subway">
 										<line class="railway-subway-casing railway-subway-casing-color railway-casing" smart-linecap="no" />
 									</rule>
+									<rule e="way" k="railway" v="tram">
+										<line class="railway-tram-casing railway-tram-casing-color railway-casing" smart-linecap="no" />
+									</rule>
 									<rule e="way" k="railway" v="incline|funicular">
 										<line class="railway-funicular-casing railway-funicular-casing-color railway-casing" smart-linecap="no" />
 									</rule>
@@ -1577,7 +1580,7 @@
 										<line class="railway-subway-1-core railway-subway-1-core-color railway-1-core" smart-linecap="no" />
 									</rule>
 									<rule e="way" k="railway" v="tram">
-										<line class="railway-tram-core railwy-tram-core-color railway-1-core" smart-linecap="no" />
+										<line class="railway-tram-core railway-tram-core-color railway-1-core" smart-linecap="no" />
 									</rule>
 									<rule e="way" k="railway" v="incline|funicular">
 										<line class="railway-funicular-1-core railway-funicular-1-core-color railway-1-core" smart-linecap="no" />
@@ -2788,7 +2791,7 @@
 
 		<!-- tram stops -->
 		<rule e="node" k="railway" v="tram_stop">
-			<circle r="0.4" class="railway-halt"/>
+			<circle r="0.4" class="railway-tram-halt"/>
 		</rule>
 
 		<!-- Barriers -->
@@ -3040,7 +3043,12 @@
 			<symbol ref="telephone" position="center"/>
 		</rule>
 		<rule e="node|way" k="amenity" v="fast_food">
-			<symbol ref="fastfood" position="center"/>
+            <rule k='cuisine' v='american'>
+                <symbol ref="hamburger" position="center"/>
+            </rule>
+            <else>
+                <symbol ref="fastfood" position="center"/>
+            </else>
 		</rule>
 
 		<!-- Leisure symbols -->
@@ -3099,7 +3107,12 @@
 			<symbol ref="soccer" position="center"/>
 		</rule>
 		<rule e="node" k="sport" v="swimming">
-			<symbol ref="swimming" position="center"/>
+            <rule k='building' v='*'>
+                <symbol ref="swimming-indoor" position="center"/>
+            </rule>
+            <else>
+                <symbol ref="swimming-outdoor" position="center"/>
+            </else>
 		</rule>
 		<rule e="node" k="sport" v="tennis">
 			<symbol ref="tennis" position="center"/>
@@ -3149,7 +3162,12 @@
 			<symbol ref="soccer-borderless" position="center"/>
 		</rule>
 		<rule e="way" k="sport" v="swimming">
-			<symbol ref="swimming-borderless" position="center"/>
+            <rule k='building' v='*'>
+                <symbol ref="swimming-indoor" position="center"/>
+            </rule>
+            <else>
+                <symbol ref="swimming-outdoor" position="center"/>
+            </else>
 		</rule>
 		<rule e="way" k="sport" v="tennis">
 			<symbol ref="tennis-borderless" position="center"/>
@@ -3898,11 +3916,12 @@
 			.railway-light-2-core-color              { stroke: #0f4c0f; }
 			.railway-light-tunnel-core               { stroke-opacity: 0.3; }
 
-			.railway-tram-casing                    { stroke-width: 0.4px; }
-			.railway-tram-core                    { stroke-width: 0.25px; }
-			.railway-tram-casing-color              { stroke: #4c0f4c; }
-			.railway-tram-core-color              { stroke: #e6b7e6; }
+			.railway-tram-casing                    { stroke-width: 0.2px; }
+			.railway-tram-core                      { stroke-width: 0.2px; }
+			.railway-tram-casing-color              { stroke: #070707; }
+			.railway-tram-core-color                { stroke: #0066FF; }
 			.railway-tram-tunnel-core               { stroke-opacity: 0.3; }
+			.railway-tram-halt                      { fill: #0066FF } /* stroke: #606060; stroke-width: 0.1px; } */
 
 			.railway-subway-casing                    { stroke-width: 0.4px; }
 			.railway-subway-1-core                    { stroke-width: 0.25px; }
