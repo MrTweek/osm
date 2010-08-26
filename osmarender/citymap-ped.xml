@@ -2612,27 +2612,8 @@
 		<!-- piste areas -->
         <!-- TODO: simplify -->
 		<rule e="way" k="piste:type" v="downhill" closed="yes">
-			<rule e="way" k="piste:difficulty" v="novice">
-				<line class="piste-area piste-area-difficulty-novice" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="easy">
-				<line class="piste-area piste-area-difficulty-easy" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="intermediate">
-				<line class="piste-area piste-area-difficulty-intermediate" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="advanced">
-				<line class="piste-area piste-area-difficulty-advanced" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="expert">
-				<line class="piste-area piste-area-difficulty-expert" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="freeride">
-				<line class="piste-area piste-area-difficulty-freeride" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="~">
 				<line class="piste-area piste-area-difficulty-other" smart-linecap="no"/>
-			</rule>
+
 			<rule e="way" k="name|ref" v="*">
 				<!-- prefer to render name, otherwise render ref -->
 				<rule e="way" k="name" v="~">
@@ -2653,27 +2634,7 @@
 		</rule>
 		<!-- piste ways -->
 		<rule e="way" k="piste:type" v="downhill" closed="no">
-			<rule e="way" k="piste:difficulty" v="novice">
-				<line class="piste-core piste-difficulty-novice" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="easy">
-				<line class="piste-core piste-difficulty-easy" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="intermediate">
-				<line class="piste-core piste-difficulty-intermediate" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="advanced">
-				<line class="piste-core piste-difficulty-advanced" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="expert">
-				<line class="piste-core piste-difficulty-expert" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="freeride">
-				<line class="piste-core piste-difficulty-freeride" smart-linecap="no"/>
-			</rule>
-			<rule e="way" k="piste:difficulty" v="~">
-				<line class="piste-core piste-difficulty-other" smart-linecap="no"/>
-			</rule>
+            <line class="piste-core piste-difficulty-other" smart-linecap="no"/>
 			<rule e="way" k="name|ref" v="*">
 				<!-- prefer to render name, otherwise render ref -->
 				<!-- text is rendered at 75%, refs at 25%, aerialway name at 50% -->
