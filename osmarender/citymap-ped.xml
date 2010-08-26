@@ -22,7 +22,7 @@
 	showLicense="no"
 	interactive="no"
 	showRelationRoute="yes"
-	symbolsDir="../stylesheets/symbols"
+	symbolsDir="stylesheets/symbols"
 	meter2pixel="0.1375">
 
 
@@ -2874,11 +2874,6 @@
 		</rule>
 		<rule e="node" k="tourism" v="viewpoint">
 			<symbol ref="viewpoint" position="center"/>
-		</rule>
-
-		<!-- platforms nodes -->
-		<rule e="node" k="highway|railway|public_transport" v="platform">
-			<circle r="0.6px" class="highway-platform-node" />
 		</rule>
 
 		<!-- Railway stations -->
