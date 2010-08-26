@@ -3848,15 +3848,15 @@
 			}
 
 			.highway-core {
-			stroke-linecap: square;
-			stroke-linejoin: round;
-			fill: none;
+                stroke-linecap: square;
+                stroke-linejoin: round;
+                fill: none;
 			}
 
 			.highway-motorway-junction {
-			fill: yellow;
-			stroke: #4D5D73;
-			stroke-width: 0.75px;
+                fill: yellow;
+                stroke: #4D5D73;
+                stroke-width: 0.75px;
 			}
 
 			.highway-motorway-junction-caption {
