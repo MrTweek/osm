@@ -713,32 +713,7 @@
 				<area class="highway-casing highway-byway-3-casing highway-byway-3-area-casing no-bezier" smart-linecap="no"/>
 			</rule>
 			<rule e="way" k="highway" v="track">
-				<rule e="way" k="tracktype" v="grade1">
-					<area class="highway-casing highway-track-casing highway-track-grade1-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-				</rule>
-				<else>
-					<rule e="way" k="tracktype" v="grade2">
-						<area class="highway-casing highway-track-casing highway-track-grade2-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-					</rule>
-					<else>
-						<rule e="way" k="tracktype" v="grade3">
-							<area class="highway-casing highway-track-casing highway-track-grade3-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-						</rule>
-						<else>
-							<rule e="way" k="tracktype" v="grade4">
-								<area class="highway-casing highway-track-casing highway-track-grade4-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-							</rule>
-							<else>
-								<rule e="way" k="tracktype" v="grade5">
-									<area class="highway-casing highway-track-casing highway-track-grade5-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-								</rule>
-								<else>
-									<area class="highway-casing highway-track-casing highway-track-gradex-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
-								</else>
-							</else>
-						</else>
-					</else>
-				</else>
+                <area class="highway-casing highway-track-casing highway-track-area-casing no-bezier" smart-linecap="no"/>
 			</rule>
 			<rule e="way" k="highway" v="unsurfaced">
 				<area class="highway-casing highway-unsurfaced-casing highway-unsurfaced-area-casing no-bezier" smart-linecap="no"/>
@@ -851,38 +826,7 @@
 					<line class="highway-casing highway-byway-3-casing" smart-linecap="no"/>
 				</rule>
 				<rule e="way" k="highway" v="track">
-					<rule e="way" k="tracktype" v="grade1">
-						<line class="highway-casing highway-track-casing highway-track-grade1-casing" smart-linecap="no"/>
-					</rule>
-					<else>
-						<rule e="way" k="tracktype" v="grade2">
-							<line class="highway-casing highway-track-casing highway-track-grade2-casing" smart-linecap="no"/>
-						</rule>
-						<else>
-							<rule e="way" k="tracktype" v="grade3">
-								<line class="highway-casing highway-track-casing highway-track-grade3-casing" smart-linecap="no"/>
-							</rule>
-							<else>
-								<rule e="way" k="tracktype" v="grade4">
-									<line class="highway-casing highway-track-casing highway-track-grade4-casing" smart-linecap="no"/>
-								</rule>
-								<else>
-									<rule e="way" k="tracktype" v="grade5">
-										<line class="highway-casing highway-track-casing highway-track-grade5-casing" smart-linecap="no"/>
-									</rule>
-									<else>
-										<rule e="way" k="track" v="racetrack">
-											<line class="highway-racetrack-casing-white" smart-linecap="no"/>
-											<line class="highway-racetrack-casing-red" smart-linecap="no"/>
-										</rule>
-										<else>
-											<line class="highway-casing highway-track-casing highway-track-gradex-casing" smart-linecap="no"/>
-										</else>
-									</else>
-								</else>
-							</else>
-						</else>
-					</else>
+                    <line class="highway-casing highway-track-casing highway-track-grade1-casing" smart-linecap="no"/>
 				</rule>
 				<rule e="way" k="highway" v="unsurfaced">
 					<rule e="way" k="cycleway" v="track|lane|opposite_track|opposite_lane|yes">
@@ -1382,32 +1326,7 @@
 				<area class="highway-core highway-byway-area no-bezier" smart-linecap="no"/>
 			</rule>
 			<rule e="way" k="highway" v="track">
-				<rule e="way" k="tracktype" v="grade1">
-					<area class="highway-core highway-track-grade1-area no-bezier" smart-linecap="no"/>
-				</rule>
-				<else>
-					<rule e="way" k="tracktype" v="grade2">
-						<area class="highway-core highway-track-grade2-area no-bezier" smart-linecap="no"/>
-					</rule>
-					<else>
-						<rule e="way" k="tracktype" v="grade3">
-							<area class="highway-core highway-track-grade3-area no-bezier" smart-linecap="no"/>
-						</rule>
-						<else>
-							<rule e="way" k="tracktype" v="grade4">
-								<area class="highway-core highway-track-grade4-area no-bezier" smart-linecap="no"/>
-							</rule>
-							<else>
-								<rule e="way" k="tracktype" v="grade5">
-									<area class="highway-core highway-track-grade5-area no-bezier" smart-linecap="no"/>
-								</rule>
-								<else>
-									<area class="highway-core highway-track-gradex-area no-bezier" smart-linecap="no"/>
-								</else>
-							</else>
-						</else>
-					</else>
-				</else>
+                <area class="highway-core highway-track-grade1-area no-bezier" smart-linecap="no"/>
 			</rule>
 			<rule e="way" k="highway" v="unsurfaced">
 				<area class="highway-core highway-unsurfaced-area no-bezier" smart-linecap="no"/>
@@ -1546,32 +1465,7 @@
 						<line class="highway-racetrack-core" smart-linecap="no"/>
 					</rule>
 					<else>
-						<rule e="way" k="tracktype" v="grade1">
-							<line class="highway-core highway-track-core2 highway-track-grade1-core" smart-linecap="no"/>
-						</rule>
-						<else>
-							<rule e="way" k="tracktype" v="grade2">
-								<line class="highway-core highway-track-core2 highway-track-grade2-core" smart-linecap="no"/>
-							</rule>
-							<else>
-								<rule e="way" k="tracktype" v="grade3">
-									<line class="highway-core highway-track-core highway-track-grade3-core" smart-linecap="no"/>
-								</rule>
-								<else>
-									<rule e="way" k="tracktype" v="grade4">
-										<line class="highway-core highway-track-core highway-track-grade4-core" smart-linecap="no"/>
-									</rule>
-									<else>
-										<rule e="way" k="tracktype" v="grade5">
-											<line class="highway-core highway-track-core  highway-track-grade5-core" smart-linecap="no"/>
-										</rule>
-										<else>
-											<line class="highway-core highway-track-core2 highway-track-gradex-core" smart-linecap="no"/>
-										</else>
-									</else>
-								</else>
-							</else>
-						</else>
+                        <line class="highway-core highway-track-core2 highway-track-grade1-core" smart-linecap="no"/>
 					</else>
 				</rule>
 				<rule e="way" k="highway" v="unsurfaced">
@@ -4103,7 +3997,7 @@
 			.highway-trunk-cy1-casing               { stroke-width: 2.55px;     stroke: #707070; }
 			.highway-trunk-cy2-casing               { stroke-width: 2.3px;      stroke: #d1fad1; }
 			.highway-trunk-mr1-casing               { stroke-width: 1.3px;      stroke: #707070; }
-			.highway-trunk-mr2-casing               { stroke-width: 2.15px;     stroke: #809BC0; }
+			.highway-trunk-mr2-casing               { stroke-width: 1.3px;     stroke: #707070; }
 			.highway-trunk-mr3-casing               { stroke-width: 2.15px;     stroke: #FDBF6F; }
 			.highway-trunk-mrcy1-casing               { stroke-width: 2.8px;      stroke: #707070; }
 			.highway-trunk-mrcy2-casing               { stroke-width: 2.6px;      stroke: #d1fad1; }

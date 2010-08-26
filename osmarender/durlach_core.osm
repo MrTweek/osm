@@ -1925,7 +1925,7 @@
     <tag k='addr:city' v='Karlsruhe' />
     <tag k='addr:housenumber' v='7' />
   </node>
-  <node id='337388044' action='modify' timestamp='2009-08-10T16:32:43Z' uid='12150' user='MrTweek' visible='true' version='2' lat='48.9993269' lon='8.4635237'>
+  <node id='337388044' timestamp='2009-08-10T16:32:43Z' uid='12150' user='MrTweek' visible='true' version='3' lat='48.9993269' lon='8.4635237'>
     <tag k='name' v='M&amp;H Chicken' />
     <tag k='amenity' v='pub' />
   </node>
@@ -2546,12 +2546,12 @@
   <node id='502952310' timestamp='2009-12-20T08:09:46Z' uid='39381' user='DD1GJ' visible='true' version='2' lat='49.0011239' lon='8.4669265' />
   <node id='27012423' timestamp='2009-12-20T08:09:46Z' uid='39381' user='DD1GJ' visible='true' version='3' lat='49.0012871' lon='8.4666565' />
   <node id='747761638' timestamp='2010-05-25T10:42:22Z' uid='6269' user='Mueck' visible='true' version='1' lat='49.0011716' lon='8.4663645' />
-  <node id='609169741' action='modify' timestamp='2010-01-08T14:04:11Z' uid='12150' user='MrTweek' visible='true' version='1' lat='48.99917571787642' lon='8.46835512434198'>
+  <node id='609169741' timestamp='2010-01-08T14:04:11Z' uid='12150' user='MrTweek' visible='true' version='2' lat='48.99917571787642' lon='8.46835512434198'>
     <tag k='cuisine' v='turkish' />
     <tag k='name' v='A la Turka' />
     <tag k='amenity' v='restaurant' />
   </node>
-  <node id='609169743' action='modify' timestamp='2010-01-08T14:04:11Z' uid='12150' user='MrTweek' visible='true' version='1' lat='48.99924214380756' lon='8.468245648683958'>
+  <node id='609169743' timestamp='2010-01-08T14:04:11Z' uid='12150' user='MrTweek' visible='true' version='2' lat='48.99924214380756' lon='8.468245648683958'>
     <tag k='name' v='Erdi-Like' />
     <tag k='amenity' v='pub' />
   </node>
