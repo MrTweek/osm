@@ -5549,17 +5549,17 @@
 			}
 
 			.map-scale-casing {
-			fill: none;
-			stroke: #8080ff;
-			stroke-width: 4px;
-			stroke-linecap: butt;
+                fill: none;
+                stroke: #0707070;
+                stroke-width: 4px;
+                stroke-linecap: butt;
 			}
 
 			.map-scale-core {
-			fill: none;
-			stroke: #ffffff;
-			stroke-width: 3px;
-			stroke-linecap: butt;
+                fill: none;
+                stroke: #ffffff;
+                stroke-width: 3px;
+                stroke-linecap: butt;
 			}
 
 			.map-scale-bookend {
