@@ -7,7 +7,7 @@
 <rules
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:svg="http://www.w3.org/2000/svg"
-	data="durlach_core.osm"
+	data="durlach_komplett.osm"
 	svgBaseProfile="full"
 	scale="1"
 	symbolScale="0.107"
@@ -3048,6 +3048,9 @@
                 <symbol ref="hamburger" position="center"/>
             </rule>
             <else>
+                <rule k='cuisine' v='italian'>
+                    <symbol ref="pizza" position="center"/>
+                </rule>
                 <symbol ref="fastfood" position="center"/>
             </else>
 		</rule>
