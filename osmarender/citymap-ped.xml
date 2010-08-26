@@ -84,7 +84,7 @@
 				</else>
 			</else>
 		</rule>
-        <!-- Heide -->
+		<!-- Heide -->
 		<rule e="way" k="natural" v="heath">
 			<area class="natural-heath"/>
 		</rule>
@@ -332,7 +332,7 @@
 			<wayMarker k="waterway" class="canal-lock"/>
 		</rule>
 
-    <!-- TODO: what is this? -->
+	<!-- TODO: what is this? -->
 		<rule e="way" k="highway" v="*">
 			<rule e="way" k="highway" v="motorway|motorway_link|footway|steps|pedestrian|cycleway|bridleway|track|byway|path|cycleroad|living_street|construction|planned|proposed|disused|abandoned|dismantled">
 			</rule>
@@ -349,7 +349,7 @@
 		</rule>
 
 		<!-- embankments & cutings -->
-        <!--
+		<!--
 		<rule e="way" k="man_made" v="dyke|dike|levee|embankment">
 			<rule e="way" k="highway" v="*">
 				<rule e="way" k="cycleway" v="yes|track|lane">
@@ -491,7 +491,7 @@
 				<line class="embankment-cutting cutting-small-middle-core"      smart-linecap="no" />
 			</else>
 		</rule>
-        -->
+		-->
 
 		<!-- Bridge casings -->
 		<rule e="way" k="bridge" v="yes|true">
@@ -676,7 +676,7 @@
 				<line class="bridge-core highway-steps-bridge-core" smart-linecap="no"/>
 			</rule>
 		</rule>
-        <!-- end bridges -->
+		<!-- end bridges -->
 
 		<!-- Highway area casings -->
 		<rule e="way" k="area" v="yes|true">
@@ -821,10 +821,10 @@
 					<line class="highway-casing highway-steps-casing"/>
 				</rule>
 				<rule e="way" k="highway" v="footway|footpath">
-                    <line class="highway-casing highway-footway-casing" smart-linecap="no"/>
+					<line class="highway-casing highway-footway-casing" smart-linecap="no"/>
 				</rule>
 				<rule e="way" k="highway" v="pedestrian">
-                    <line class="highway-casing highway-pedestrian-casing"/>
+					<line class="highway-casing highway-pedestrian-casing"/>
 				</rule>
 				<rule e="way" k="highway" v="cycleway">
 					<line class="highway-casing highway-cycleway-casing" smart-linecap="no"/>
@@ -1081,17 +1081,17 @@
 				</rule>
 
 				<rule e="way" k="highway" v="trunk">
-                    <rule e="way" k="motorroad" v="yes">
-                        <line class="highway-casing highway-trunk-mr1-casing"/>
-                    </rule>
-                    <else>
-                        <rule e="way" k="motorroad" v="no">
-                            <line class="highway-casing highway-trunk-mr1-casing"/>
-                        </rule>
-                        <else>
-                            <line class="highway-casing highway-trunk-casing"/>
-                        </else>
-                    </else>
+					<rule e="way" k="motorroad" v="yes">
+						<line class="highway-casing highway-trunk-mr1-casing"/>
+					</rule>
+					<else>
+						<rule e="way" k="motorroad" v="no">
+							<line class="highway-casing highway-trunk-mr1-casing"/>
+						</rule>
+						<else>
+							<line class="highway-casing highway-trunk-casing"/>
+						</else>
+					</else>
 				</rule>
 
 				<rule e="way" k="highway" v="motorway_link">
@@ -1335,7 +1335,7 @@
 
 			</rule>
 		</rule>
-        <!-- end casing --> 
+		<!-- end casing --> 
 
 		<!-- Turning circles -->
 		<rule e="node" k="highway" v="turning_circle">
@@ -2064,7 +2064,7 @@
 		</rule>
 
 		<!-- Linear cores (planned) -->
-        <!-- TODO: remove planned stuff? -->
+		<!-- TODO: remove planned stuff? -->
 		<rule e="way" k="highway" v="planned|proposed">
 			<rule e="way" k="planned|proposed" v="steps">
 				<line class="highway-core highway-steps-core planned" smart-linecap="no"/>
@@ -2610,7 +2610,7 @@
 
 		<!-- Piste maps: -->
 		<!-- piste areas -->
-        <!-- TODO: simplify -->
+		<!-- TODO: simplify -->
 		<rule e="way" k="piste:type" v="downhill" closed="yes">
 				<line class="piste-area piste-area-difficulty-other" smart-linecap="no"/>
 
@@ -2634,7 +2634,7 @@
 		</rule>
 		<!-- piste ways -->
 		<rule e="way" k="piste:type" v="downhill" closed="no">
-            <line class="piste-core piste-difficulty-other" smart-linecap="no"/>
+			<line class="piste-core piste-difficulty-other" smart-linecap="no"/>
 			<rule e="way" k="name|ref" v="*">
 				<!-- prefer to render name, otherwise render ref -->
 				<!-- text is rendered at 75%, refs at 25%, aerialway name at 50% -->
@@ -3134,9 +3134,9 @@
 			<symbol ref="fountain" position="center"/>
 		</rule>
 		<rule e="node|way" k="amenity" v="bank">
-            <rule e="node|way" k="atm" v="yes|true">
-                <symbol ref="atm" position="center"/>
-            </rule>
+			<rule e="node|way" k="atm" v="yes|true">
+				<symbol ref="atm" position="center"/>
+			</rule>
 		</rule>
 		<rule e="node|way" k="amenity" v="atm">
 			<symbol ref="atm" position="center"/>
@@ -3163,7 +3163,7 @@
 		</rule>
 
 		<!-- Sport symbols with border on nodes -->
-        <!-- TODO: consider removing -->
+		<!-- TODO: consider removing -->
 		<rule e="node" k="sport" v="archery">
 			<symbol ref="archery" position="center"/>
 		</rule>
@@ -3680,8 +3680,8 @@
 				<rule e="way" k="amenity|shop|tourism" v="pub|cafe|cinema|theatre|school|college|university|restaurant|shelter|supermarket|bakery|library|fire_station|doctors|pharmacy|place_of_worship|parking|post_office|hospital|hotel|hostel|camp_site|bank|atm|bureau_de_change|bus_station|supermarket|organic|hotel|hostel|camp_site|information|fast_food|fuel" layer="5">
 				</rule>
 				<else>
-                    <caption k="name" class="caption-casing generic-caption-casing" text-anchor='middle' startOffset='50%' layer="5"/>
-                    <caption k="name" class="caption-core generic-caption-core" text-anchor='middle' startOffset='50%' layer="5"/>
+					<caption k="name" class="caption-casing generic-caption-casing" text-anchor='middle' startOffset='50%' layer="5"/>
+					<caption k="name" class="caption-core generic-caption-core" text-anchor='middle' startOffset='50%' layer="5"/>
 				</else>
 			</rule>
 		</rule>
@@ -3691,17 +3691,17 @@
 		</rule>
 
 	</rule>
-        
-    <rule e="relation" k="line" v="tram">
-        <line class="relationroute-way relationroute-tram" smart-linecap="no"/>
-    </rule>
+		
+	<rule e="relation" k="line" v="tram">
+		<line class="relationroute-way relationroute-tram" smart-linecap="no"/>
+	</rule>
 
-    <rule e="relation" k="type" v="route">
-     <!--   <rule e="relation" k="route" v="bus"> -->
-            <line class="relationroute-way relationroute-green" smart-linecap="no"/>
+	<rule e="relation" k="type" v="route">
+	 <!--   <rule e="relation" k="route" v="bus"> -->
+			<line class="relationroute-way relationroute-green" smart-linecap="no"/>
 <!--            <circle class="relationroute-green relationroute-stop" r="0.5px"/> -->
    <!--     </rule> -->
-    </rule>
+	</rule>
 
 	<!-- SVG Definitions - markers, symbols etc go here -->
 	<include ref="markers.xml"/>
@@ -3709,27 +3709,27 @@
 		<style xmlns="http://www.w3.org/2000/svg" id="styles" type="text/css">
 			/* DO NOT DELETE - Used by osmarender.xsl */
 			.untagged-segments {
-                stroke-width: 0.5px;
-                stroke-linejoin: round;
-                stroke-linecap: butt;
-                stroke: #e0e0e0;
-                stroke-dasharray: 0.5,0.5;
+				stroke-width: 0.5px;
+				stroke-linejoin: round;
+				stroke-linecap: butt;
+				stroke: #e0e0e0;
+				stroke-dasharray: 0.5,0.5;
 			}
 
 			.canal-lock {
-                fill: none;
-                stroke: #ffffff;
-                stroke-width: 0.1px;
-                stroke-opacity: 0;
-                marker-mid: url(#canal-lock);
+				fill: none;
+				stroke: #ffffff;
+				stroke-width: 0.1px;
+				stroke-opacity: 0;
+				marker-mid: url(#canal-lock);
 			}
 
 			.noexit-all {
-                fill: none;
-                stroke: #ffffff;
-                stroke-width: 0.1px;
-                stroke-opacity: 0;
-                marker-mid: url(#noexit-all);
+				fill: none;
+				stroke: #ffffff;
+				stroke-width: 0.1px;
+				stroke-opacity: 0;
+				marker-mid: url(#noexit-all);
 			}
 			.noexit-veh {
 			fill: none;
@@ -3806,18 +3806,18 @@
 
 			/* RelationRoute - generic styles */
 			.relationroute-way {
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                smart-linecap: no;
-                fill: none;
-                stroke-width: 2.5px;
-                opacity: 0.75; 
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				smart-linecap: no;
+				fill: none;
+				stroke-width: 2.5px;
+				opacity: 0.75; 
 			}
 
 			.relationroute-stop {
-                stroke-width: 4px;
-                fill: none;
-                opacity: 0.75; 
+				stroke-width: 4px;
+				fill: none;
+				opacity: 0.75; 
 			}
 
 			/* VGA colours supported, add more if necessary */
@@ -3842,21 +3842,21 @@
 
 			/* Highways - generic styles */
 			.highway-casing {
-                stroke-linecap: square;
-                stroke-linejoin: round;
-                fill: none;
+				stroke-linecap: square;
+				stroke-linejoin: round;
+				fill: none;
 			}
 
 			.highway-core {
-                stroke-linecap: square;
-                stroke-linejoin: round;
-                fill: none;
+				stroke-linecap: square;
+				stroke-linejoin: round;
+				fill: none;
 			}
 
 			.highway-motorway-junction {
-                fill: yellow;
-                stroke: #4D5D73;
-                stroke-width: 0.75px;
+				fill: yellow;
+				stroke: #4D5D73;
+				stroke-width: 0.75px;
 			}
 
 			.highway-motorway-junction-caption {
@@ -4384,10 +4384,10 @@
 
 			.highway-footway-bridge-casing          { stroke-width: 1.2px; }
 			.highway-footway-bridge-core            { stroke-width: 1px; }
-            /*
+			/*
 			.highway-footway-casing                 { stroke-width: 0.6px;   stroke: #707070; stroke-dasharray: 0.2, 0.2; stroke-linecap: butt; }
 			.highway-footway-area-casing            { stroke-width: 0.15px;}
-            */
+			*/
 			.highway-footway-core                   { stroke-width: 0.40px;   stroke: #e5e0c2; }
 			.highway-footway-area                   { fill: #e5e0c2; }
 			.highway-footway-name                   { stroke-width: 0px;     font-size: 1.25px; }
@@ -5181,10 +5181,10 @@
 			}
 
 			.building-block {
-                fill: #FFDDBB;
-                stroke: #6a5a8e;
-                stroke-width: 0.1px;
-            }
+				fill: #FFDDBB;
+				stroke: #6a5a8e;
+				stroke-width: 0.1px;
+			}
 
 			.building-residential {
 			fill: #c95e2a;
