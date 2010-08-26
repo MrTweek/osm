@@ -16,9 +16,9 @@
 	minimumMapHeight="0.5"
 	withOSMLayers="yes"
 	withUntaggedSegments="no"
-	showScale="no"
-	showGrid="no"
-	showBorder="no"
+	showScale="yes"
+	showGrid="yes"
+	showBorder="yes"
 	showLicense="no"
 	interactive="no"
 	showRelationRoute="yes"
@@ -84,6 +84,7 @@
 				</else>
 			</else>
 		</rule>
+        <!-- Heide -->
 		<rule e="way" k="natural" v="heath">
 			<area class="natural-heath"/>
 		</rule>
@@ -331,6 +332,7 @@
 			<wayMarker k="waterway" class="canal-lock"/>
 		</rule>
 
+    <!-- TODO: what is this? -->
 		<rule e="way" k="highway" v="*">
 			<rule e="way" k="highway" v="motorway|motorway_link|footway|steps|pedestrian|cycleway|bridleway|track|byway|path|cycleroad|living_street|construction|planned|proposed|disused|abandoned|dismantled">
 			</rule>
@@ -674,6 +676,7 @@
 				<line class="bridge-core highway-steps-bridge-core" smart-linecap="no"/>
 			</rule>
 		</rule>
+        <!-- end bridges -->
 
 		<!-- Highway area casings -->
 		<rule e="way" k="area" v="yes|true">
@@ -1332,6 +1335,7 @@
 
 			</rule>
 		</rule>
+        <!-- end casing --> 
 
 		<!-- Turning circles -->
 		<rule e="node" k="highway" v="turning_circle">
@@ -2060,6 +2064,7 @@
 		</rule>
 
 		<!-- Linear cores (planned) -->
+        <!-- TODO: remove planned stuff? -->
 		<rule e="way" k="highway" v="planned|proposed">
 			<rule e="way" k="planned|proposed" v="steps">
 				<line class="highway-core highway-steps-core planned" smart-linecap="no"/>
@@ -2359,9 +2364,6 @@
 		</rule>
 
 
-
-
-
 		<!-- access restrictions -->
 		<rule e="way" k="highway" v="*">
 			<rule e="way" k="construction|planned|proposed|disused|abandoned|dismantled" v="yes|true">
@@ -2584,7 +2586,7 @@
 			</rule>
 		</rule>
 
-		<!-- SAC scale for paths and footways -->
+		<!-- SAC scale for paths and footways (Swiss Alpine Club) -->
 		<rule e="way" k="highway" v="path|footway">
 			<rule e="way" k="sac_scale" v="hiking|t1|T1">
 				<line class="sac-scale-t1" smart-linecap="no"/>
@@ -2608,6 +2610,7 @@
 
 		<!-- Piste maps: -->
 		<!-- piste areas -->
+        <!-- TODO: simplify -->
 		<rule e="way" k="piste:type" v="downhill" closed="yes">
 			<rule e="way" k="piste:difficulty" v="novice">
 				<line class="piste-area piste-area-difficulty-novice" smart-linecap="no"/>
